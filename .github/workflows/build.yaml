@@ -22,7 +22,7 @@ jobs:
         run: |
           ZIP_NAME="latest.mrpack"
           cd pack
-          zip -r "$ZIP_NAME" .
+          zip -r "../$ZIP_NAME" .
           echo "ZIP_NAME=$ZIP_NAME" >> $GITHUB_ENV
 
       - name: Create or update release
