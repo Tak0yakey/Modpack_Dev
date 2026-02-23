@@ -1,0 +1,38 @@
+{
+	id: "02CE17DE7C7427B7"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "021E98514B1BA4AD", item: { components: { "automobility:frame": "automobility:amethyst_rickshaw" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "5F118150A316AD68", item: { components: { "automobility:frame": "automobility:bejeweled_motorcar" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "004471C6A9530106", item: { components: { "automobility:frame": "automobility:blue_tractor" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "220C03A7F05010E1", item: { components: { "automobility:frame": "automobility:copper_motorcar" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "7EFF3ABB082BBF64", item: { components: { "automobility:frame": "automobility:echo_rickshaw" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "7E5BD63F2BEA4094", item: { components: { "automobility:frame": "automobility:golden_motorcar" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "1CD29FB2E2428D2F", item: { components: { "automobility:frame": "automobility:green_tractor" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "1F467EE9A2FA1930", item: { components: { "automobility:frame": "automobility:pineapple" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "77CDF473FCD7B2EC", item: { components: { "automobility:frame": "automobility:prismarine_rickshaw" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "5E24E424B286384B", item: { components: { "automobility:frame": "automobility:quartz_rickshaw" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "7B1B1A8FEF5F5797", item: { components: { "automobility:frame": "automobility:red_tractor" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "22F17112B2FBCD9E", item: { components: { "automobility:frame": "automobility:shopping_cart" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "2B97F0A9D9BA30E6", item: { components: { "automobility:frame": "automobility:standard_black" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "61463AF68377E462", item: { components: { "automobility:frame": "automobility:standard_blue" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "2D4C6F9F8BC8F1E6", item: { components: { "automobility:frame": "automobility:standard_brown" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "4C45AEB457DAD1F2", item: { components: { "automobility:frame": "automobility:standard_cyan" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "257ED709509B31FF", item: { components: { "automobility:frame": "automobility:standard_gray" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "4DFD97059B079C87", item: { components: { "automobility:frame": "automobility:standard_green" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "1E7827A92AA16708", item: { components: { "automobility:frame": "automobility:standard_light_blue" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "15EDE2BF149A5F25", item: { components: { "automobility:frame": "automobility:standard_light_gray" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "3974D0939BA4790A", item: { components: { "automobility:frame": "automobility:standard_lime" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "7D06D9DD05F77AF5", item: { components: { "automobility:frame": "automobility:standard_magenta" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "43641C0C86FA8985", item: { components: { "automobility:frame": "automobility:standard_orange" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "487513786048DF74", item: { components: { "automobility:frame": "automobility:standard_pink" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "4BBA40A745FD6D61", item: { components: { "automobility:frame": "automobility:standard_purple" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "282CF5C6A2CCA1F5", item: { components: { "automobility:frame": "automobility:standard_red" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "67A6FDE0E199157B", item: { components: { "automobility:frame": "automobility:standard_white" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "7C266E0659A55984", item: { components: { "automobility:frame": "automobility:standard_yellow" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "2E671DBBFA562C4C", item: { components: { "automobility:frame": "automobility:steel_motorcar" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "16BCC94819EBB15A", item: { components: { "automobility:frame": "automobility:wooden_motorcar" }, count: 1, id: "automobility:automobile_frame" } }
+		{ id: "41DA154C0D5BEC88", item: { components: { "automobility:frame": "automobility:yellow_tractor" }, count: 1, id: "automobility:automobile_frame" } }
+	]
+}

@@ -1,0 +1,558 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farmarsdelight"
+	group: ""
+	icon: {
+		id: "farmersdelight:hamburger"
+	}
+	id: "15E243DDA2446494"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1E042424D13AA119"
+			rewards: [
+				{
+					count: 4
+					id: "4DC2A767AF449586"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "36EB3BC4E118D693"
+					item: {
+						count: 1
+						id: "minecraft:egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "058FF717708720A0"
+				item: { count: 1, id: "farmersdelight:skillet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "00B4F257D49EF69A"
+			rewards: [{
+				id: "4E8529189A11E058"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "51481CD08F61354A"
+					item: { count: 1, id: "farmersdelight:flint_knife" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "76300E40B6855E77"
+					item: { count: 1, id: "farmersdelight:iron_knife" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6CABAEEF7B1A21DE"
+					item: { count: 1, id: "farmersdelight:golden_knife" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2705455DCE5DEBCA"
+					item: { count: 1, id: "farmersdelight:diamond_knife" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7AAD36CF53F0AA5F"
+					item: { count: 1, id: "farmersdelight:netherite_knife" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1D5B1CC48AE12CB1"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1E042424D13AA119"
+				"5BD243139909B5B0"
+			]
+			dependency_requirement: "one_completed"
+			id: "0FA22864AFF9C690"
+			rewards: [{
+				count: 6
+				id: "70DB0121CE444308"
+				item: {
+					count: 1
+					id: "culturaldelights:corn_kernels"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A34EC813DA57FED"
+				item: { count: 1, id: "farmersdelight:stove" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "5BD243139909B5B0"
+			rewards: [{
+				id: "0C234DF7FE0ABEBA"
+				item: {
+					count: 1
+					id: "farmersdelight:pasta_with_meatballs"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "285BE20F2E060F36"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0FA22864AFF9C690"]
+			id: "052A1151D4486754"
+			rewards: [{
+				id: "2DF043DAC753954F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1110BFD3FF39C9A4"
+				item: { count: 1, id: "farmersdelight:basket" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "7B9E413999049D82"
+			rewards: [{
+				id: "74FE94CFA5286CDF"
+				item: {
+					count: 1
+					id: "farmersdelight:hamburger"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "74F2817B2460C16D"
+					item: { count: 1, id: "displaydelight:food_plate" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1DA2B0C8DD69A947"
+					item: { count: 1, id: "displaydelight:small_food_plate" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "6B2FFB38AD884964"
+			rewards: [{
+				count: 4
+				id: "25C478A00B12E604"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "6901B6E4822DEB72"
+				item: { count: 1, id: "farmingforblockheads:market" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7B113196D6A2D45F"]
+			id: "0050F41EC09B9AC0"
+			rewards: [{
+				id: "3E2B3954BD4CBBC8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3C47263B656660C4"
+				item: { count: 1, id: "sushigocrafting:rice_cooker" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7B113196D6A2D45F"]
+			id: "54D5929438124A98"
+			tasks: [{
+				id: "662003946508CA4C"
+				item: { count: 1, id: "sushigocrafting:cooler_box" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B113196D6A2D45F"]
+			id: "42DB91C6FDBBE660"
+			rewards: [{
+				id: "32628522B3373085"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "32FAA5398E490FA8"
+				item: { count: 1, id: "sushigocrafting:fermentation_barrel" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7B113196D6A2D45F"]
+			id: "0571F4B553D13D7D"
+			rewards: [{
+				id: "10FC9DBB383B63D3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3E5FEB4D16972D3D"
+				item: { count: 1, id: "sushigocrafting:roller" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B113196D6A2D45F"]
+			id: "44CA08A40D75A976"
+			rewards: [{
+				id: "5A6356B6ED000F81"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2FFE2F0560088561"
+					item: { count: 1, id: "sushigocrafting:cutting_board" }
+					type: "item"
+				}
+				{
+					id: "3686CFF19E6E6037"
+					item: { count: 1, id: "sushigocrafting:cleaver_knife" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			id: "7B113196D6A2D45F"
+			rewards: [{
+				id: "5631839470CD1E04"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "3BCA6C942FC4622F"
+					item: { count: 1, id: "farmersdelight:rice" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2B06994F6C833844"
+					item: { count: 1, id: "sushigocrafting:rice" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"54D5929438124A98"
+				"42DB91C6FDBBE660"
+			]
+			id: "172D11581689490B"
+			rewards: [{
+				id: "7A5ABF0A387CE36B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "49A37C80D8FFE5D1"
+				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "honey", "milk", "protected_by_totem" ], show_icon: 1b }, probability: 0.6f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:soy_sauce" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"54D5929438124A98"
+				"42DB91C6FDBBE660"
+			]
+			id: "6CF56F778AA23B27"
+			rewards: [{
+				id: "66B36E82A4D693F6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4D9306862BCEFAD2"
+				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "honey", "milk", "protected_by_totem" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:cheese" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"54D5929438124A98"
+				"0050F41EC09B9AC0"
+			]
+			id: "44063A95A550323F"
+			rewards: [{
+				id: "0171B59E051485BA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "236052283CFAA3B6"
+				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "honey", "milk", "protected_by_totem" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:cooked_rice" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B113196D6A2D45F"]
+			hide_dependency_lines: true
+			id: "71B724A608DE9390"
+			rewards: [{
+				id: "6CD28BA0D7A6159C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "04D6AA08C7098F6F"
+				item: { count: 1, id: "sushigocrafting:nori_sheets" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"54D5929438124A98"
+				"44CA08A40D75A976"
+			]
+			hide_dependency_lines: true
+			id: "22E1EA8682A9CE51"
+			rewards: [{
+				id: "1CA88B3A7EF02AA0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3C82CCEE31E479CC"
+				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "honey", "milk", "protected_by_totem" ], show_icon: 1b }, probability: 0.6f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:wasabi_paste" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"54D5929438124A98"
+				"44CA08A40D75A976"
+			]
+			hide_dependency_lines: true
+			id: "1DE912DD9FFE5646"
+			rewards: [{
+				id: "56E5A1764F07851F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "77571BBAFCCA981A"
+				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "honey", "milk", "protected_by_totem" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:shrimp" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"44CA08A40D75A976"
+				"54D5929438124A98"
+			]
+			hide_dependency_lines: true
+			id: "17EDC50235F7227B"
+			rewards: [{
+				id: "29BD413309599701"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1CBF5CD1AF2ED045"
+				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "honey", "milk", "protected_by_totem" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:avocado_slices" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"54D5929438124A98"
+				"44CA08A40D75A976"
+			]
+			hide_dependency_lines: true
+			id: "19B855A48E39DA75"
+			rewards: [{
+				id: "4742FE7B7D00319B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "298EF69E3A359B4F"
+				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "honey", "milk", "protected_by_totem" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:tuna_fillet" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"54D5929438124A98"
+				"44CA08A40D75A976"
+			]
+			hide_dependency_lines: true
+			id: "1CC340586F3A19AD"
+			rewards: [{
+				id: "10F8B4B77050B5A5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2A300B105A38EEAD"
+				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "honey", "milk", "protected_by_totem" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:salmon_fillet" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"54D5929438124A98"
+				"44CA08A40D75A976"
+			]
+			hide_dependency_lines: true
+			id: "6D9815D51AACDD77"
+			rewards: [{
+				id: "2BA5E240DC868CCF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "26145D02FE62B64B"
+				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "honey", "milk", "protected_by_totem" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:cucumber_slices" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"54D5929438124A98"
+				"44CA08A40D75A976"
+			]
+			hide_dependency_lines: true
+			id: "14955F2D2C3913E4"
+			rewards: [{
+				id: "07820BEA58852E0A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "109459C211161FC5"
+				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "honey", "milk", "protected_by_totem" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:imitation_crab" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"54D5929438124A98"
+				"44CA08A40D75A976"
+			]
+			hide_dependency_lines: true
+			id: "77F908412B1A072A"
+			rewards: [{
+				id: "3971C4BE4F82EB25"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5454E21C5571C9D5"
+				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "honey", "milk", "protected_by_totem" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:sesame_seed" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"54D5929438124A98"
+				"44CA08A40D75A976"
+			]
+			hide_dependency_lines: true
+			id: "43A1BABFF77011B9"
+			rewards: [{
+				id: "33FF63AFAC488221"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3043CC639A291328"
+				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "honey", "milk", "protected_by_totem" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:tobiko" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+	]
+}

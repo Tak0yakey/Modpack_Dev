@@ -1,0 +1,256 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "35EA05FD4127AC38"
+	group: ""
+	icon: {
+		id: "chipped:chisel"
+	}
+	id: "35EA05FD4127AC38"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1366BD7B703F7473"
+			rewards: [{
+				id: "3AD27FB92D8717DB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "49F324577477070F"
+				item: { count: 1, id: "rechiseled:chisel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4EA86F9685452EDC"
+			rewards: [{
+				id: "5576EC8E2DD0F181"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "43EE25B34A887056"
+				item: { count: 1, id: "chipped:chisel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "04BE9184C6921FD1"
+			rewards: [{
+				id: "52FBB29A895FC219"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4A6A14131356732B"
+				item: { count: 1, id: "minecraft:stonecutter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "39105F20A12E16AD"
+			rewards: [
+				{
+					id: "5940B4568E83475E"
+					item: {
+						count: 1
+						id: "refurbished_furniture:light_electricity_generator"
+					}
+					type: "item"
+				}
+				{
+					id: "56ACC3C763FD58CC"
+					item: {
+						count: 1
+						id: "refurbished_furniture:wrench"
+					}
+					type: "item"
+				}
+				{
+					id: "0271C3B9AB0D642A"
+					item: {
+						count: 1
+						id: "refurbished_furniture:computer"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4E72C7E16D4579F0"
+				item: { count: 1, id: "refurbished_furniture:workbench" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			id: "24017149C8C8FFF1"
+			rewards: [{
+				count: 64
+				id: "31F6A3D267D1C343"
+				item: {
+					count: 1
+					id: "immersive_furniture:crafting_material"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "290F23732E4E4421"
+				item: { count: 1, id: "immersive_furniture:artisans_workstation" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "724035740304DB96"
+			rewards: [{
+				id: "7B63DE6001819115"
+				item: {
+					count: 1
+					id: "platforms:wrench"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "55085E4899CC16C1"
+				item: { count: 1, id: "platforms:platformer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "industrially_plated:hazard_stripe_block"
+			}
+			id: "24300706917612BD"
+			rewards: [{
+				id: "752298F7874609E4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "075BED93EAB9A5B7"
+				item: { count: 1, id: "industrially_plated:gray_plating_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "29DFE65C2CA23410"
+			rewards: [{
+				id: "15272C43E4CE28E6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4D5268018C02DA38"
+				item: { count: 1, id: "chisel:iron_chisel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "01DD813CE60AFE7F"
+			rewards: [{
+				id: "7A486536775407FA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1F20DF92C4376A65"
+				item: { count: 1, id: "xkdeco:steel_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				id: "unusual_furniture:cat_plush"
+			}
+			id: "76E827AEE78E65A2"
+			rewards: [{
+				id: "761273FA6E90803E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2FF292D11184C678"
+				item: { count: 1, id: "unusual_furniture:blackboard_menu" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "1C1975BD1DD2E6A5"
+			rewards: [{
+				id: "5A7D5D982AE9E417"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2BE28AF945097684"
+				item: { count: 1, id: "copycats:copycat_slab" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "52D21F8EA730E81E"
+			rewards: [
+				{
+					id: "3EDE571FA71FA099"
+					item: {
+						count: 1
+						id: "framedblocks:framed_hammer"
+					}
+					type: "item"
+				}
+				{
+					id: "201757BE981E28E1"
+					item: {
+						count: 1
+						id: "framedblocks:framing_saw"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C89F167987C0E2B"
+				item: { count: 1, id: "framedblocks:framed_slab" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "6E00E6AE8349A173"
+			rewards: [{
+				id: "60EC2DF389BE5E2B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "36801621EB935C72"
+				item: { count: 1, id: "bits_n_bobs:girder_strut" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+}

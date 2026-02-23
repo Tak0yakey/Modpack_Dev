@@ -1,0 +1,106 @@
+{
+	id: "77DA27682A293099"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 4
+			id: "002C8AC37696FF2D"
+			item: {
+				components: {
+					"automobility:wheel": "automobility:bejeweled"
+				}
+				count: 1
+				id: "automobility:automobile_wheel"
+			}
+		}
+		{
+			count: 4
+			id: "471A9CB1AB2772A6"
+			item: {
+				components: {
+					"automobility:wheel": "automobility:carriage"
+				}
+				count: 1
+				id: "automobility:automobile_wheel"
+			}
+		}
+		{
+			count: 4
+			id: "7EE07E1444933354"
+			item: {
+				components: {
+					"automobility:wheel": "automobility:gilded"
+				}
+				count: 1
+				id: "automobility:automobile_wheel"
+			}
+		}
+		{
+			count: 4
+			id: "65896525A78AEEEE"
+			item: {
+				components: {
+					"automobility:wheel": "automobility:off_road"
+				}
+				count: 1
+				id: "automobility:automobile_wheel"
+			}
+		}
+		{
+			count: 4
+			id: "06190285F5026D18"
+			item: {
+				components: {
+					"automobility:wheel": "automobility:plated"
+				}
+				count: 1
+				id: "automobility:automobile_wheel"
+			}
+		}
+		{
+			count: 4
+			id: "115E5B88E8D1CED8"
+			item: {
+				components: {
+					"automobility:wheel": "automobility:standard"
+				}
+				count: 1
+				id: "automobility:automobile_wheel"
+			}
+		}
+		{
+			count: 4
+			id: "45D65E54221CDE4D"
+			item: {
+				components: {
+					"automobility:wheel": "automobility:steel"
+				}
+				count: 1
+				id: "automobility:automobile_wheel"
+			}
+		}
+		{
+			count: 4
+			id: "2141FD4D1587F041"
+			item: {
+				components: {
+					"automobility:wheel": "automobility:street"
+				}
+				count: 1
+				id: "automobility:automobile_wheel"
+			}
+		}
+		{
+			count: 4
+			id: "372544C0EAEB6A6D"
+			item: {
+				components: {
+					"automobility:wheel": "automobility:tractor"
+				}
+				count: 1
+				id: "automobility:automobile_wheel"
+			}
+		}
+	]
+}

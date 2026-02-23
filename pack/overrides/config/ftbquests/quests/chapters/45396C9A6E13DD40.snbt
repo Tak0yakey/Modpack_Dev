@@ -1,0 +1,182 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "45396C9A6E13DD40"
+	group: ""
+	icon: {
+		id: "industrially_plated:electricity_hazard_sign"
+	}
+	id: "45396C9A6E13DD40"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1ECB4CBD21F3ECED"
+			rewards: [
+				{
+					count: 4
+					id: "48A4BA243905AEEA"
+					item: {
+						count: 1
+						id: "immersive_paintings:painting"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "493727B4FEED339F"
+					item: {
+						count: 1
+						id: "immersive_paintings:graffiti"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "490E65C80CAB009D"
+					item: { count: 1, id: "immersive_paintings:painting" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2FEB573BE27FB072"
+					item: { count: 1, id: "immersive_paintings:graffiti" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "parcool:zipline_rope"
+			}
+			id: "4A51980B866E9FE6"
+			rewards: [{
+				id: "6EFB0BA119467958"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0FAE9D393A46D4A9"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "0BA396F66A7997C1"
+			tasks: [{
+				id: "3CBDB35E04EB7FCF"
+				item: { count: 1, id: "justdirethings:voidshift_wand" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "2C7C4D04B89EBE60"
+			rewards: [{
+				id: "12B3B36485B27AD2"
+				item: {
+					count: 1
+					id: "etched:boombox"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6639A69261EA839C"
+					item: { count: 1, id: "etched:blank_music_disc" }
+					type: "item"
+				}
+				{
+					id: "651355FA9FEB3C60"
+					item: { count: 1, id: "etched:music_label" }
+					type: "item"
+				}
+				{
+					id: "628632CA5ACF76BA"
+					item: { count: 1, id: "etched:etching_table" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "16DC79D4D9EA3DBB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30133AD8E2B4F720"
+				table_id: 8858029184094932461L
+				type: "all_table"
+			}]
+			tasks: [{
+				id: "11181945AC8649E6"
+				item: { count: 1, id: "gamediscs:gaming_console" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "little_big_redstone:red_microchip"
+			}
+			id: "2D1EC857DB8A19EC"
+			rewards: [{
+				count: 16
+				id: "3E9FAB9FDB113921"
+				item: {
+					count: 1
+					id: "little_big_redstone:redstone_bit"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "25C3C813FC0D441A"
+					item: { count: 1, id: "little_big_redstone:redstone_bit" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "08DF1FD5B3DD9733"
+					item: { count: 1, id: "little_big_redstone:red_microchip" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "6EE03EEC086947C2"
+			rewards: [
+				{
+					id: "76B0E4151EAC0930"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:crafting_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "0DD67F50243E7FCF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1E847C39C0C2CDC5"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+}

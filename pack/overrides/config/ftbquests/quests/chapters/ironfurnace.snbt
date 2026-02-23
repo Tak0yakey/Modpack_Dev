@@ -1,0 +1,31 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ironfurnace"
+	group: ""
+	id: "73DD6A092092C78E"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5E1F5FCDDC87F784"
+			tasks: [{
+				id: "6B810ED9DFE3A173"
+				item: { count: 1, id: "ironfurnaces:copper_furnace" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6924375F375A8D4E"
+			tasks: [{
+				id: "047ABE3F903A6F32"
+				item: { count: 1, id: "ironfurnaces:iron_furnace" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

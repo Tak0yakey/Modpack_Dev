@@ -1,0 +1,23 @@
+ServerEvents.recipes(event => {
+    event.shapeless(
+        Item.of('trafficcraft:raw_bitumen',16),
+        [
+            'minecraft:coal',
+            'minecraft:black_dye'
+        ]
+    )
+    event.shapeless(
+        Item.of('trafficcraft:salt',8),
+        [
+            'minecraft:sand',
+            'minecraft:sand',
+            'minecraft:sand',
+            'minecraft:sand',
+            'minecraft:sand',
+            'minecraft:sand',
+            'minecraft:sand',
+            'minecraft:sand',
+            'minecraft:water_bucket'
+        ]
+    )
+})

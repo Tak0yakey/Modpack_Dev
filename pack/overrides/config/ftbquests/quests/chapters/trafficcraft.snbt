@@ -1,0 +1,430 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "trafficcraft"
+	group: ""
+	icon: {
+		id: "trafficcraft:traffic_cone"
+	}
+	id: "2F8519C19C0C02C5"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "trafficcraft:asphalt"
+			}
+			id: "12730CBBA60AE9A1"
+			rewards: [{
+				id: "2D32DEE1256AFA2C"
+				item: {
+					count: 1
+					id: "trafficcraft:wrench"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "641C7A798E06FD7F"
+					item: { count: 1, id: "trafficcraft:asphalt" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "142B528F44309FE7"
+					item: { count: 1, id: "trafficcraft:concrete" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12730CBBA60AE9A1"]
+			id: "3F5E5E99284DC897"
+			rewards: [{
+				id: "07A4E823AC3BECA1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "458E799B7D11220F"
+				item: { components: { "trafficcraft:road_construction_tool": { road_type: 1, road_width: 7b } }, count: 1, id: "trafficcraft:diamond_road_construction_tool" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12730CBBA60AE9A1"]
+			id: "72068689D2DF5BD3"
+			rewards: [{
+				count: 32
+				id: "0B51B996BA908EDD"
+				item: {
+					count: 1
+					id: "minecraft:white_dye"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "50C869E7E7708373"
+					item: { count: 1, id: "trafficcraft:paint_brush" }
+					type: "item"
+				}
+				{
+					id: "77C7B8B3B28384F0"
+					item: { count: 1, id: "trafficcraft:paint_bucket" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "329596E40BEE74BF"
+			rewards: [{
+				id: "299BE1FBB69E79E8"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "540F1DCB1F46F3DE"
+				item: { count: 1, id: "automobility:crowbar" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["329596E40BEE74BF"]
+			id: "5DEA7E8F4EF9557A"
+			tasks: [{
+				id: "02E1F75713002072"
+				item: { count: 1, id: "automobility:auto_mechanic_table" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5DEA7E8F4EF9557A"]
+			id: "3F37D8566E095297"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7789056C159E8C2A"
+					table_id: 3934741814860867657L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23819DEC3449EC9C"
+					table_id: 8636258563773771929L
+					type: "all_table"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61032B808DF3C082"
+					table_id: 202125277616416695L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				id: "2F5B64B7B8897F87"
+				item: { count: 1, id: "automobility:automobile_assembler" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3F37D8566E095297"]
+			id: "05410ADF1ECB2718"
+			rewards: [{
+				id: "73AF3077D6A4794F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2FFE8B7D79BB5943"
+					item: { count: 1, id: "automobility:slope" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "49289637C91D16AA"
+					item: { count: 1, id: "automobility:steep_slope" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3F37D8566E095297"]
+			id: "7DE59BFB5DB65F56"
+			rewards: [{
+				id: "5E58963A59CCB9FB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1DE127F9C71D59BF"
+				item: { count: 1, id: "automobility:dash_panel" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3F37D8566E095297"]
+			id: "1B3D59D401E067E9"
+			tasks: [{
+				id: "6C305421100430BA"
+				item: { count: 1, id: "automobility:launch_gel" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3F37D8566E095297"]
+			id: "15332410CC5ACCA0"
+			rewards: [{
+				id: "4FE6386A1397E592"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "7924278F1E0BED77"
+					item: { count: 1, id: "automobility:grass_off_road" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "083933FC0BABDBE9"
+					item: { count: 1, id: "automobility:dirt_off_road" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "77FC591C994339AC"
+					item: { count: 1, id: "automobility:sand_off_road" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6BE3E346A387B376"
+					item: { count: 1, id: "automobility:snow_off_road" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["67B65F5C70DC2C12"]
+			id: "5CD8594F1A645A38"
+			rewards: [{
+				id: "72556FC3FEF36D54"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7CF0209FBAEF608A"
+				item: { count: 1, id: "trafficcraft:traffic_sign" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12730CBBA60AE9A1"]
+			id: "67B65F5C70DC2C12"
+			rewards: [{
+				id: "54CEC200428F6377"
+				item: {
+					count: 1
+					id: "trafficcraft:color_palette"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3345B48061649DE8"
+					item: { count: 1, id: "trafficcraft:traffic_sign_workbench" }
+					type: "item"
+				}
+				{
+					id: "2D7C365E212D52D9"
+					item: { count: 1, id: "trafficcraft:pattern_catalogue" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D491C4C1B3817CD"]
+			id: "175D09D1D12926F0"
+			rewards: [{
+				id: "596794D608ECFED7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "38CF03DCF010714C"
+				item: { count: 1, id: "trafficcraft:street_lamp_config_card" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["12730CBBA60AE9A1"]
+			id: "6B7FF42A7F14E025"
+			rewards: [{
+				id: "4BDEEDC040E6248A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0FB19712B4045724"
+				item: { count: 1, id: "trafficcraft:traffic_light" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["12730CBBA60AE9A1"]
+			id: "7D491C4C1B3817CD"
+			rewards: [{
+				id: "7CEC29632B61283C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "05659812E69748E8"
+				item: { count: 1, id: "trafficcraft:street_light" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6B7FF42A7F14E025"]
+			id: "059D44CD189B95D3"
+			rewards: [{
+				id: "52AC9AEEFD75C33D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "1C9456FA87A79A48"
+					item: { count: 1, id: "trafficcraft:traffic_light_linker" }
+					type: "item"
+				}
+				{
+					id: "0E84FBD9F4FC6827"
+					item: { count: 1, id: "trafficcraft:traffic_light_controller" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["12730CBBA60AE9A1"]
+			id: "79943EDE6D774AB7"
+			rewards: [{
+				id: "36B63A82A2B847B1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "1C4EE05ADF19777A"
+					item: { count: 1, id: "trafficcraft:traffic_cone" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "51CDAFB39102AE80"
+					item: { count: 1, id: "trafficcraft:traffic_bollard" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7CE660B229F0110B"
+					item: { count: 1, id: "trafficcraft:traffic_barrel" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "245DA2D46975E334"
+					item: { count: 1, id: "trafficcraft:road_barrier_fence" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4D7668FCD00ECE13"
+					item: { count: 1, id: "trafficcraft:guardrail" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5BAB433D39C9C0EE"
+					item: { count: 1, id: "trafficcraft:concrete_barrier" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["12730CBBA60AE9A1"]
+			id: "77A7E1D2F6D646D1"
+			rewards: [{
+				id: "1584399A458CA380"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "380940A7CEBC2C0F"
+					item: { count: 1, id: "trafficcraft:town_sign" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "16F012434D298CB0"
+					item: { count: 1, id: "trafficcraft:street_sign" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1BA8406D3867F83A"
+					item: { count: 1, id: "trafficcraft:house_number_sign" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -2.0d
+		}
+	]
+}

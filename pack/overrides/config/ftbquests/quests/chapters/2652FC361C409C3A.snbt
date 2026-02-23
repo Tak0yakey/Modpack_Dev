@@ -1,0 +1,164 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2652FC361C409C3A"
+	group: ""
+	icon: {
+		id: "industrially_plated:generic_instruction_sign"
+	}
+	id: "2652FC361C409C3A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "supplementaries:globe"
+			}
+			id: "44D72F91A50EA1BB"
+			rewards: [
+				{
+					id: "38E291ED6AC145F5"
+					item: {
+						count: 1
+						id: "waystones:warp_stone"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3BC8524AA327B723"
+					item: {
+						count: 1
+						id: "farmersdelight:hamburger"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0563688A2DB2727D"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "3AD75603A84FBCAC"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_recipe_mod: true
+			disable_toast: true
+			icon: {
+				id: "waystones:return_scroll"
+			}
+			id: "0EF5FCAA2FFC673E"
+			optional: true
+			rewards: [{
+				command: "/warp home"
+				icon: {
+					id: "minecraft:ender_pearl"
+				}
+				id: "7BDB7D39DC105198"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "3DE85514D48BB602"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "createdeco:decal_skull"
+			}
+			id: "44F44D0668A6AA88"
+			rewards: [{
+				id: "45D84BBC783F7E0B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2599DE5013285B96"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "supplementaries:key"
+			}
+			id: "0DEA3B458109E284"
+			rewards: [{
+				id: "36C059FB6C2AA315"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1944ACDDC04094F9"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "modularrouters:placer_module"
+			}
+			id: "1C80387A582B4643"
+			tasks: [{
+				id: "5CA0A1C15DB85A7F"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "create:track"
+			}
+			id: "380CE6AD0275E269"
+			rewards: [{
+				id: "69430CB33B9D0239"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5F35E0C3C57F10F5"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "fluxnetworks:flux_controller"
+			}
+			id: "75E96A0CC9BAB581"
+			rewards: [{
+				id: "3341623E10DD5079"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "335398556D4413B0"
+				observe_type: 0
+				timer: 0L
+				to_observe: "fluxnetworks:flux_controller"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+}

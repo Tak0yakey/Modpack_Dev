@@ -1,0 +1,14 @@
+{
+	id: "7AEE0A9C70058DED"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ id: "023976E3EFFA7636", item: { count: 1, id: "gamediscs:game_disc_flappy_bird" } }
+		{ id: "2185EC5407FED6A3", item: { count: 1, id: "gamediscs:game_disc_slime" } }
+		{ id: "17C1C868B465400F", item: { count: 1, id: "gamediscs:game_disc_blocktris" } }
+		{ id: "37279C149E0172FE", item: { count: 1, id: "gamediscs:game_disc_tnt_sweeper" } }
+		{ id: "0FE4008F41651A88", item: { count: 1, id: "gamediscs:game_disc_pong" } }
+		{ id: "74E43C47344FE19D", item: { count: 1, id: "gamediscs:game_disc_froggie" } }
+		{ id: "4100228F2E5A5F66", item: { count: 1, id: "gamediscs:game_disc_rabbit" } }
+	]
+}

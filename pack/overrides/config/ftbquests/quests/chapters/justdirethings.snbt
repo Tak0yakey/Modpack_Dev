@@ -1,0 +1,66 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "justdirethings"
+	group: ""
+	id: "48B95F0355E23FB7"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1A254022F73879B8"]
+			id: "14EFF5B4CB047FE4"
+			tasks: [{
+				id: "1BD8840AA0DFB8B0"
+				item: { count: 1, id: "justdirethings:gooblock_tier1" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["14EFF5B4CB047FE4"]
+			id: "51EBC88B2B6D8E1B"
+			tasks: [{
+				id: "25849E2771C44957"
+				item: { count: 1, id: "justdirethings:ferricore_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14EFF5B4CB047FE4"]
+			id: "0E842AD1E2201378"
+			tasks: [{
+				id: "0D0022D6E6643649"
+				item: { count: 1, id: "justdirethings:coal_t1" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "justdirethings:ferricore_wrench"
+			}
+			id: "1A254022F73879B8"
+			rewards: [{
+				id: "3CDAAFF116E1A808"
+				item: {
+					count: 1
+					id: "justdirethings:ferricore_wrench"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "7C446A84C70FCFE3"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}

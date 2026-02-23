@@ -1,0 +1,10 @@
+{
+	id: "369B02D55DA86849"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ id: "727D3BF973918412", item: { components: { "automobility:engine": "automobility:diamond" }, count: 1, id: "automobility:automobile_engine" } }
+		{ id: "6827EAA101BE6C02", item: { components: { "automobility:engine": "automobility:gold" }, count: 1, id: "automobility:automobile_engine" } }
+		{ id: "0B61D3C7A26817D2", item: { components: { "automobility:engine": "automobility:iron" }, count: 1, id: "automobility:automobile_engine" } }
+	]
+}

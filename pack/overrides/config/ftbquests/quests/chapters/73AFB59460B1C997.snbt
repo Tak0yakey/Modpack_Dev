@@ -1,0 +1,320 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "73AFB59460B1C997"
+	group: ""
+	icon: {
+		id: "buildinggadgets2:gadget_building"
+	}
+	id: "73AFB59460B1C997"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4366B259CCC2CCAD"
+			rewards: [
+				{
+					id: "0202E3EC29B18BAC"
+					item: {
+						count: 1
+						id: "constructionstick:template_battery"
+					}
+					type: "item"
+				}
+				{
+					id: "4B5776CF0396605C"
+					item: {
+						count: 1
+						id: "minecraft:copper_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F2AEC0B5B85C4B4"
+				item: { count: 1, id: "constructionstick:diamond_stick" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "31D6A4BD9B285049"
+			rewards: [{
+				id: "36D4519170F03F6D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "728ABA94A2D5E947"
+				item: { count: 1, id: "buildinggadgets2:gadget_building" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "31FCBA0B55BF0B94"
+			rewards: [{
+				id: "1699D9D0055BD27F"
+				item: {
+					count: 1
+					id: "rftoolsbuilder:shape_card_def"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "12E014F76A8ABDF6"
+				item: { count: 1, id: "rftoolsbuilder:builder" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			id: "2BBC4E79E9642495"
+			rewards: [{
+				id: "3789418985FC93C6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1199B8CE69F6670E"
+				item: { count: 1, id: "buildinggadgets2:gadget_exchanging" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "70F54881EFA7986D"
+			rewards: [{
+				id: "00CA242411C04960"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "47F8B4F901A15373"
+				item: { count: 1, id: "buildinggadgets2:gadget_copy_paste" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			id: "65B65BB2E6EBBA26"
+			rewards: [{
+				id: "3A4751E4AE620B92"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "244EA7FDA1FB7014"
+				item: { components: { "buildinggadgets2:paste_replace_toggle": 1b }, count: 1, id: "buildinggadgets2:gadget_cut_paste" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			id: "69C6A02BC0568277"
+			rewards: [{
+				id: "2DB74F7B875172D0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "179B840893F0C93B"
+				item: { count: 1, id: "buildinggadgets2:gadget_destruction" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			hide_dependency_lines: false
+			id: "4290287DC21DA55F"
+			rewards: [{
+				id: "4588EF01D0DD8DF7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1AF21B0C4F42CB64"
+				item: { count: 1, id: "meplacementtool:me_placement_tool" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4290287DC21DA55F"]
+			hide_dependency_lines: false
+			id: "21126ADF6DEE6080"
+			rewards: [{
+				id: "0ACB368235313426"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "30ECBE1D5E07FBEF"
+				item: { count: 1, id: "meplacementtool:multiblock_placement_tool" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "13F5EA288008818B"
+			rewards: [{
+				id: "76DC8B1A9C67ADDA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7E300646A05956F2"
+				item: { count: 1, id: "supplementaries:wrench" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "create:brass_hand"
+			}
+			id: "44F7FAD0AD0F7E55"
+			rewards: [{
+				id: "14B6756118F1AD48"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "24C671FC625C95AD"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			id: "1914443A5C73AFFF"
+			rewards: [{
+				id: "1AC8F2FE25FA2C90"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7153316FC4AA0641"
+				item: { count: 1, id: "measurements:tape_measure" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "3F7EB5B1527ACE32"
+			rewards: [{
+				count: 2
+				id: "0130E5AB8617FBAB"
+				item: {
+					count: 1
+					id: "toolbelt:pouch"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "297A248A9A4460E6"
+				item: { count: 1, id: "toolbelt:belt" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			id: "6E2B179D37755E2C"
+			rewards: [
+				{
+					id: "5D107923FB9F564B"
+					item: {
+						count: 1
+						id: "create:schematic_table"
+					}
+					type: "item"
+				}
+				{
+					id: "0776D5BBDCBAAFA0"
+					item: {
+						count: 1
+						id: "create:empty_schematic"
+					}
+					type: "item"
+				}
+				{
+					id: "29CB92EE56DE54BB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "611F861C97516E44"
+				item: { count: 1, id: "create:schematicannon" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6E2B179D37755E2C"]
+			id: "488B1227E0906C27"
+			rewards: [{
+				id: "12C33E057F130361"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6D6522746B67CF7F"
+				item: { count: 1, id: "schematicenergistics:cannon_interface" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6E2B179D37755E2C"]
+			id: "11EA0A3C342D5FBC"
+			rewards: [{
+				id: "4FD0005932862443"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7B3F84201B93F964"
+				item: { count: 1, id: "create_pattern_schematics:empty_pattern_schematic" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			id: "40D0C99A167B100B"
+			rewards: [{
+				id: "080B32C8E8F51C87"
+				item: {
+					count: 1
+					id: "supplementaries:soap"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B8320DFF5CB8B55"
+				item: { components: { "minecraft:enchantments": { levels: { "supplementaries:stasis": 1 } }, "minecraft:repair_cost": 1, "supplementaries:charges": 200 }, count: 1, id: "supplementaries:bubble_blower" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+	]
+}

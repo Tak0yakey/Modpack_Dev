@@ -1,0 +1,60 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mysticalagriculture"
+	group: ""
+	id: "2C572AB55E231D8E"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7417BC40844FF257"
+			tasks: [{
+				id: "2B80711C98DFCE20"
+				item: { count: 1, id: "mysticalagriculture:inferium_essence" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "14E0B3228B0C6E87"
+			tasks: [{
+				id: "3D257AE1A4C3DA05"
+				item: { count: 1, id: "mysticalagriculture:prosperity_shard" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14E0B3228B0C6E87"]
+			id: "1AF5280C23B1AFB6"
+			tasks: [{
+				id: "7032B454D978B037"
+				item: { count: 1, id: "mysticalagriculture:prosperity_seed_base" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "25EB86A9F91BB090"
+			tasks: [
+				{
+					id: "4D8426176415826E"
+					item: { count: 1, id: "mysticalagriculture:infusion_altar" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2D672D75B5CD5444"
+					item: { count: 1, id: "mysticalagriculture:infusion_pedestal" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}
