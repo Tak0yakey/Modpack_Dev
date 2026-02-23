@@ -1,2 +1,8 @@
-/mods/*
+/*
+
+
+!/kubejs/
+!/kubejs/*
+!/config/
+!/config/*
 options.txt
