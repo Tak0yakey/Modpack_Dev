@@ -21,7 +21,7 @@ jobs:
       - name: Zip dist folder
         run: |
           ZIP_NAME="latest.mrpack"
-          zip -r "$ZIP_NAME" pack
+          zip -r "$ZIP_NAME" pack/*
           echo "ZIP_NAME=$ZIP_NAME" >> $GITHUB_ENV
 
       - name: Create or update release
