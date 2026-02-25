@@ -1,0 +1,7 @@
+/*
+
+# Whitelisted
+!/ftbquests/
+!/ftbquests/**
+!/memorysettings.json
+!/.gitignore
