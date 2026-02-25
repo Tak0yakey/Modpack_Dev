@@ -82,5 +82,27 @@
 			x: 8.0d
 			y: 2.5d
 		}
+		{
+			dependencies: ["2BCC32885993122E"]
+			id: "1FAC08DD86E1F4FE"
+			tasks: [{
+				id: "3146577EC1A9DF9C"
+				item: { count: 1, id: "create:water_wheel" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FAC08DD86E1F4FE"]
+			id: "1894C27ECEA249ED"
+			tasks: [{
+				id: "3E9E6B182A8D6A05"
+				item: { count: 1, id: "create:large_water_wheel" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
 	]
 }
