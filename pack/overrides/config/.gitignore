@@ -5,3 +5,4 @@
 !/ftbquests/**
 !/memorysettings.json
 !/.gitignore
+!/tectonic.json
