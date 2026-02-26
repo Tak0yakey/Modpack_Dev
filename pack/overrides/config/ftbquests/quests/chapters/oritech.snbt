@@ -274,6 +274,7 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["199B80F5939E92DC"]
 			id: "62CE2DD147400101"
 			rewards: [{
 				id: "3C2DF2138498DC9B"
@@ -292,6 +293,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["199B80F5939E92DC"]
 			id: "16BED662A90CD2B7"
 			tasks: [
 				{
@@ -319,6 +321,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["199B80F5939E92DC"]
 			id: "160E3735C4330E2B"
 			tasks: [{
 				id: "211CF20C0899FB91"
@@ -329,6 +332,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["199B80F5939E92DC"]
 			id: "1F858D9DF6C2CBD0"
 			tasks: [{
 				id: "54FA9C4BC3CB01F0"
@@ -339,6 +343,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["199B80F5939E92DC"]
 			id: "77E813915F41A668"
 			tasks: [{
 				id: "79D011442C163192"
@@ -349,6 +354,8 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["3B89F01DA1A43CE8"]
+			hide_dependency_lines: true
 			id: "392F326E6A66F95F"
 			tasks: [{
 				id: "1F60F4B528EDA792"
@@ -998,6 +1005,8 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["24EB92F265A0B034"]
+			hide_dependency_lines: true
 			id: "567EE2C37641F9AC"
 			tasks: [{
 				id: "2338F0B36D74A11C"
@@ -1008,6 +1017,8 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["24EB92F265A0B034"]
+			hide_dependency_lines: true
 			id: "67BE7F6F00BB0601"
 			tasks: [{
 				id: "77B195ED61249D03"
@@ -1152,6 +1163,7 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["199B80F5939E92DC"]
 			id: "2D5247E7125B7998"
 			tasks: [{
 				id: "53CEF93732589418"
@@ -1639,6 +1651,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["199B80F5939E92DC"]
 			id: "601BB21015E714F7"
 			tasks: [{
 				id: "392CE69C90490E0A"
