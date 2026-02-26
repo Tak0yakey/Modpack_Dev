@@ -6,21 +6,6 @@
     "files": [
         {
             "downloads": [
-                "https://cdn.modrinth.com/data/JTNe4RSx/versions/4isbwBRE/2032-world-height-1.1.jar"
-            ],
-            "env": {
-                "client": "required",
-                "server": "required"
-            },
-            "fileSize": 5708,
-            "hashes": {
-                "sha1": "6e5e687b1fe50f3fc47d6abdd2167dd8d5abe344",
-                "sha512": "c6451c9875a7bfcd34911c0e124bbfbdfb7ea7d180731a653904294874a608b7c2bd2e165a759e5bc8fbddf7ed4a6dd9fe3bd38ae08642bd030b985fa534b49e"
-            },
-            "path": "mods/2032-world-height-1.1.jar"
-        },
-        {
-            "downloads": [
                 "https://cdn.modrinth.com/data/gpwwX5bd/versions/S0DrkKR6/AE2-TangibleBookmarks-1.21.1-0.1.0.jar"
             ],
             "env": {
