@@ -41,5 +41,41 @@
 			x: 3.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["4BBE76D89CFFC2D7"]
+			id: "7DED508CD403614B"
+			tasks: [{
+				id: "60434C87CC5DC515"
+				item: { count: 1, id: "immersiveengineering:treated_wood_horizontal" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A12621702D2C03A"]
+			id: "5F87E44CDC26BF89"
+			tasks: [{
+				count: 8L
+				id: "0A3C33466D9FD5A0"
+				item: { count: 1, id: "immersiveengineering:alloybrick" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A12621702D2C03A"]
+			hide_dependency_lines: false
+			id: "62801F297FF789DA"
+			tasks: [{
+				count: 27L
+				id: "406137B2D40746E3"
+				item: { count: 1, id: "immersiveengineering:blastbrick" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
 	]
 }
