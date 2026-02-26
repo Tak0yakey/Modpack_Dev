@@ -3663,6 +3663,21 @@
                 "sha512": "3e99a6a70db7b96eb74800d8eb1598ac2fcf1b481cca40b7d9e9aa16cfc9b2b47ead8c192cb86cf00b03caf9c2f98223c5ccd550854dbec3c22a5e974a1dea35"
             },
             "path": "mods/crystalix-2.4.0.jar"
+        },
+        {
+            "path": "mods/iris-flywheel-compat-NeoForge-2.1.2.jar",
+            "hashes": {
+                "sha512": "216f78878c06f2bd329cfefe9b3f7540a08422e01dd9022e369a8f32678ffca291f846e2e5379b42ebff9193300100e03771b8bf69f4fdb49de0184aa607c6b2",
+                "sha1": "c7528182a380494a98d1b6aacabb52ae771dd4a6"
+            },
+            "env": {
+                "client": "required",
+                "server": "required"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/ndHYMY2K/versions/KZZ5gJA4/iris-flywheel-compat-NeoForge-2.1.2.jar"
+            ],
+            "fileSize": 893987
         }
     ],
     "formatVersion": 1,
