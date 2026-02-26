@@ -2,7 +2,7 @@
 
 ### ==>>>[最新のModpackを入手](https://github.com/Tak0yakey/Modpack_Dev/releases/tag/latest)
 
-
+## CreateSimlinkToMinecraftFolder.sh
 <details><summary>以下は、スクリプトの使い方・挙動をまとめた説明です。</summary>
 
 ---
