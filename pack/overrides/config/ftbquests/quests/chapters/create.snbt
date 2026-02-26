@@ -629,8 +629,8 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: -2.5d
+			x: 7.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2C719FADCC3B50A1"]
@@ -641,8 +641,8 @@
 				item: { count: 1, id: "create:rope_pulley" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -2.0d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["25B649E241EA7DCA"]
@@ -928,8 +928,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: -1.5d
+			x: 6.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["65D5A4E6A2008813"]
@@ -940,8 +940,8 @@
 				item: { count: 1, id: "create:cart_assembler" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.5d
+			x: 7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["65D5A4E6A2008813"]
@@ -1515,6 +1515,105 @@
 			}]
 			x: -7.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["42EA25DAC57D0303"]
+			hide_dependency_lines: true
+			id: "2B7553F09D4A49BA"
+			tasks: [{
+				id: "4C0A4A3EE0857DF2"
+				item: { count: 1, id: "create_hypertube:hypertube" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["712B53B2EC74C722"]
+			hide_dependency_lines: true
+			id: "72D01C6D6275F526"
+			tasks: [{
+				id: "6E8B9AF53BD6BDEF"
+				item: { count: 1, id: "create_hypertube:hypertube_entrance" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"72D01C6D6275F526"
+				"7C2F66E6C7BCE9B4"
+			]
+			hide_dependency_lines: true
+			id: "47A22CD78D312C2B"
+			tasks: [{
+				id: "3619FC0DC44BD54D"
+				item: { count: 1, id: "create_hypertube:hypertube_accelerator" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0B4CC400ACEA1A22"]
+			id: "1C23CD1D301AF185"
+			tasks: [{
+				id: "611341C0850315CB"
+				item: { count: 1, id: "bits_n_bobs:chain_pulley" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["455907C02B2ED0C6"]
+			hide_dependency_lines: true
+			id: "4B5129E684351C61"
+			tasks: [{
+				id: "4B115770EA2D8EFF"
+				item: { count: 1, id: "create:elevator_pulley" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["25B649E241EA7DCA"]
+			hide_dependency_lines: true
+			id: "151198BBA8D6DE58"
+			tasks: [
+				{
+					id: "58F969A7FA21A3D7"
+					item: { count: 1, id: "escalated:metal_walkway_steps" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1175FB503B127F8A"
+					item: { count: 1, id: "escalated:wooden_walkway_steps" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"633DD32BD61A3E3B"
+				"455907C02B2ED0C6"
+				"20EB14FDCBBCECBD"
+			]
+			hide_dependency_lines: true
+			id: "73BF490181796CA0"
+			tasks: [{
+				id: "7ABC02B32A2B14B0"
+				item: { count: 1, id: "createaddition:tesla_coil" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
 		}
 	]
 }

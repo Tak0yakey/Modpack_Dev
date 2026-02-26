@@ -15,8 +15,8 @@
 				item: { count: 1, id: "justdirethings:gooblock_tier1" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["14EFF5B4CB047FE4"]
@@ -27,7 +27,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 0.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["14EFF5B4CB047FE4"]
@@ -37,10 +37,11 @@
 				item: { count: 1, id: "justdirethings:coal_t1" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.0d
+			x: 2.0d
+			y: 4.5d
 		}
 		{
+			hide_dependent_lines: true
 			icon: {
 				id: "justdirethings:ferricore_wrench"
 			}
@@ -61,6 +62,174 @@
 			}]
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["14EFF5B4CB047FE4"]
+			id: "385FBE7862D505D0"
+			tasks: [{
+				id: "0FFD61A7E6909663"
+				item: { count: 1, id: "justdirethings:gooblock_tier2" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["385FBE7862D505D0"]
+			id: "77D4FDB15F5B3AA6"
+			tasks: [{
+				id: "42E9CE21273025C9"
+				item: { count: 1, id: "justdirethings:gooblock_tier3" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["77D4FDB15F5B3AA6"]
+			id: "4DCC65AEB9005A8A"
+			tasks: [{
+				id: "63F91A3B423ED12B"
+				item: { count: 1, id: "justdirethings:gooblock_tier4" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["385FBE7862D505D0"]
+			id: "3CD7CA0946A9D99C"
+			tasks: [{
+				id: "4155BC0DABCFA677"
+				item: { count: 1, id: "justdirethings:blazegold_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["77D4FDB15F5B3AA6"]
+			id: "3F6B9588CA13794F"
+			tasks: [{
+				id: "1C218F9A707206E5"
+				item: { count: 1, id: "justdirethings:celestigem" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4DCC65AEB9005A8A"]
+			id: "153CB00F03F42B70"
+			tasks: [{
+				id: "596ECA7EA6DB636E"
+				item: { count: 1, id: "justdirethings:eclipsealloy_ingot" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["385FBE7862D505D0"]
+			id: "5F795C34A27A131D"
+			tasks: [{
+				id: "50D0D01D71D85C8B"
+				item: { count: 1, id: "justdirethings:coal_t2" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["77D4FDB15F5B3AA6"]
+			id: "7D379774718A0999"
+			tasks: [{
+				id: "3195BE93F4221E58"
+				item: { count: 1, id: "justdirethings:coal_t3" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4DCC65AEB9005A8A"]
+			id: "58EB2CBC94C6789F"
+			tasks: [{
+				id: "5AF02DA96444CFC3"
+				item: { count: 1, id: "justdirethings:coal_t4" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3F6B9588CA13794F"]
+			id: "0F294129F94E3FDA"
+			tasks: [{
+				id: "4DDF4DF21D46950A"
+				item: { count: 1, id: "justdirethings:template_celestigem" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3CD7CA0946A9D99C"]
+			id: "326E6E33DBBC5C79"
+			tasks: [{
+				id: "142B83C316D28CE9"
+				item: { count: 1, id: "justdirethings:template_blazegold" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["153CB00F03F42B70"]
+			id: "1C7A7BA7AFB71252"
+			tasks: [{
+				id: "29B321CD8EB49AAC"
+				item: { count: 1, id: "justdirethings:template_eclipsealloy" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3CD7CA0946A9D99C"]
+			hide_dependency_lines: true
+			id: "60EFE971C31398E1"
+			tasks: [{
+				id: "3A3711AEE2798EA3"
+				item: { count: 1, id: "justdirethings:totem_of_death_recall" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3CD7CA0946A9D99C"]
+			hide_dependency_lines: true
+			id: "64B5D86CF589642F"
+			tasks: [{
+				id: "3380D94FAB24F34B"
+				item: { count: 1, id: "justdirethings:creaturecatcher" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4DCC65AEB9005A8A"]
+			hide_dependency_lines: true
+			id: "1A5522E7E1BC1ED1"
+			tasks: [{
+				id: "6F0CB7BE5B9A8790"
+				item: { count: 1, id: "justdirethings:time_crystal_budding_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
 		}
 	]
 }
