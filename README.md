@@ -115,5 +115,6 @@ Minecraft フォルダはこうなります：
 
 設定の実体は **すべて `pack/overrides` 側で一元管理**できます。
 </details>
+
 ## curseforgeModIncluder
 Modrinthの形式でexportしたあとに残ったmodsを適当なcurseforgeのmodpackに突っ込み、それをexportしたzipを使用して、それをModrinth形式に変換します。
