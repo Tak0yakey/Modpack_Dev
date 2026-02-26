@@ -67,16 +67,6 @@
 			y: 2.0d
 		}
 		{
-			id: "0BA396F66A7997C1"
-			tasks: [{
-				id: "3CBDB35E04EB7FCF"
-				item: { count: 1, id: "justdirethings:voidshift_wand" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 4.0d
-		}
-		{
 			id: "2C7C4D04B89EBE60"
 			rewards: [{
 				id: "12B3B36485B27AD2"
