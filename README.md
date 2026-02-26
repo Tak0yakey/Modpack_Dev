@@ -3,7 +3,7 @@
 ### ==>>>[最新のModpackを入手](https://github.com/Tak0yakey/Modpack_Dev/releases/tag/latest)
 
 
-<details><summary>以下は、スクリプトの**使い方・挙動をまとめた説明**です。</summary>
+<details><summary>以下は、スクリプトの使い方・挙動をまとめた説明です。</summary>
 
 ---
 
