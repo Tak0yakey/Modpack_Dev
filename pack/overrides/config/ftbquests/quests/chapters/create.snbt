@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "create"
 	group: ""
+	icon: {
+		id: "create:cogwheel"
+	}
 	id: "07A66FE84D1A1CFA"
 	order_index: 7
 	quest_links: [ ]

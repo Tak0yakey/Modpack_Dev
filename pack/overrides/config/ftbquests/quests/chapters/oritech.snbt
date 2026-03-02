@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "oritech"
 	group: ""
+	icon: {
+		id: "oritech:fertilizer_block"
+	}
 	id: "6B1DD8478E2F7765"
 	order_index: 6
 	quest_links: [ ]

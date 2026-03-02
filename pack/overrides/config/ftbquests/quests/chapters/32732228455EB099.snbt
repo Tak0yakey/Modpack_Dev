@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "32732228455EB099"
 	group: ""
+	icon: {
+		id: "laserio:laser_node"
+	}
 	id: "32732228455EB099"
 	order_index: 13
 	quest_links: [ ]
@@ -12,14 +15,27 @@
 				id: "laserio:laser_wrench"
 			}
 			id: "4A81E7115B76D2DC"
-			rewards: [{
-				id: "481A3CD9576F6895"
-				item: {
-					count: 1
-					id: "laserio:laser_wrench"
+			rewards: [
+				{
+					id: "481A3CD9576F6895"
+					item: {
+						count: 1
+						id: "laserio:laser_wrench"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "424FEF61FD9F6490"
+					item: {
+						components: {
+							"patchouli:book": "laserio:laseriobook"
+						}
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{

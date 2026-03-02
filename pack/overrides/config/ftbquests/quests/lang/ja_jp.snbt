@@ -79,10 +79,19 @@
 	quest.1894C27ECEA249ED.quest_subtitle: "水車を何スタックも並べるのはやめておけ"
 	quest.18C981C65D5F5526.quest_subtitle: "エンダリックレーザーを強くすれば早くなる"
 	quest.1914443A5C73AFFF.quest_subtitle: "ブロック間の距離を測れる"
+	quest.199B80F5939E92DC.quest_desc: [
+		"アイテムにカーソルを合わせて"
+		"左Altキー長押しで説明が見れるで"
+	]
 	quest.199B80F5939E92DC.quest_subtitle: "近代的な工業を始める"
 	quest.199B80F5939E92DC.title: "Oritech"
+	quest.1A12621702D2C03A.quest_desc: [
+		"マルチブロックの形とか機械の説明とかは"
+		"本に書いてあるで"
+	]
 	quest.1A12621702D2C03A.quest_subtitle: "産業革命"
 	quest.1A12621702D2C03A.title: "ImmersiveEngineering"
+	quest.1A254022F73879B8.quest_desc: ["説明はこの本に載ってるで"]
 	quest.1A254022F73879B8.quest_subtitle: "なんやかんや優秀なやつ"
 	quest.1A81835866992283.quest_subtitle: "お時間延長なさいますか?"
 	quest.1A9D9C087EB129D4.quest_subtitle: "シンプルなエネルギーパイプ"
@@ -119,6 +128,10 @@
 	quest.24300706917612BD.quest_subtitle: "看板とメタルな建材"
 	quest.24300706917612BD.title: "IndustriallyPlated"
 	quest.245A6FD96F7A2570.quest_subtitle: "稼働中に上に乗らないように"
+	quest.25B649E241EA7DCA.quest_desc: [
+		"アイテムにカーソルを合わせて"
+		"Wキー長押しで説明が見れるで"
+	]
 	quest.25B649E241EA7DCA.quest_subtitle: "回転、開店---"
 	quest.25EB86A9F91BB090.quest_desc: ["レッドストーン信号でクラフト開始"]
 	quest.25EB86A9F91BB090.quest_subtitle: "各種素材を生産する種を作る祭壇"
@@ -208,6 +221,7 @@
 	quest.4A3B7D241AB55BE2.quest_subtitle: "マルチブロックの機械に必要"
 	quest.4A51980B866E9FE6.quest_subtitle: "SASUKEが始まる"
 	quest.4A5544B013859110.quest_subtitle: "過去と未来の狭間"
+	quest.4A81E7115B76D2DC.quest_desc: ["説明はこの本に載ってるで"]
 	quest.4A81E7115B76D2DC.quest_subtitle: "EnderIOなんていらんかったんや"
 	quest.4B1A3EAC1FC1BA30.quest_subtitle: "ロマンのある遠距離輸送"
 	quest.4B5129E684351C61.quest_subtitle: "mayonnaise in an elevator"
@@ -303,11 +317,16 @@
 	quest.7942216D2BAB1FB2.quest_subtitle: "エネルギー搬入が早くなる"
 	quest.79943EDE6D774AB7.quest_subtitle: "三角コーンは頭に被れます"
 	quest.79943EDE6D774AB7.title: "ガードレールとか三角コーンとか"
+	quest.7B0F3A8AC02A45DD.quest_desc: [
+		"アイテムの上にカーソルを合わせて"
+		"Gキー長押しで説明が見れるで"
+	]
 	quest.7B0F3A8AC02A45DD.quest_subtitle: "インフラ整備ゲー"
 	quest.7B113196D6A2D45F.quest_subtitle: "まず田んぼに米を植えます"
 	quest.7B113196D6A2D45F.title: "How to Make Sushi"
 	quest.7B9E413999049D82.quest_subtitle: "ボウルを使った料理でも更に皿に載せる"
 	quest.7B9E413999049D82.title: "食品を飾る"
+	quest.7BCF01389449420F.quest_desc: ["説明?ggrかAIに聞けば?"]
 	quest.7BCF01389449420F.quest_subtitle: "結論から言うね。👉これ、**めっちゃ強い**"
 	quest.7C2F66E6C7BCE9B4.quest_subtitle: "まず,石を入手します"
 	quest.7CCDB2DF2D761BE5.quest_subtitle: "でっかい粉砕機"

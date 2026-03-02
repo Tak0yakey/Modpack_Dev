@@ -4,7 +4,7 @@
 	filename: "justdirethings"
 	group: ""
 	icon: {
-		id: "justdirethings:ferricore_wrench"
+		id: "justdirethings:fuel_canister"
 	}
 	id: "48B95F0355E23FB7"
 	order_index: 8
@@ -49,14 +49,27 @@
 				id: "justdirethings:ferricore_wrench"
 			}
 			id: "1A254022F73879B8"
-			rewards: [{
-				id: "3CDAAFF116E1A808"
-				item: {
-					count: 1
-					id: "justdirethings:ferricore_wrench"
+			rewards: [
+				{
+					id: "3CDAAFF116E1A808"
+					item: {
+						count: 1
+						id: "justdirethings:ferricore_wrench"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "05DCEE25646BAD8A"
+					item: {
+						components: {
+							"patchouli:book": "justdirethings:justdirethingsbook"
+						}
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
