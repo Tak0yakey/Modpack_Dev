@@ -436,7 +436,7 @@
 				item: { count: 1, id: "immersiveengineering:component_iron" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: -2.0d
 		}
 		{
@@ -448,7 +448,7 @@
 				item: { count: 1, id: "immersiveengineering:component_steel" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -2.0d
 		}
 		{
@@ -545,7 +545,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5F87E44CDC26BF89"]
@@ -1030,8 +1030,8 @@
 				item: { count: 1, id: "immersiveengineering:fluid_sorter" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["43658BCB9DAD4D34"]
@@ -1114,8 +1114,153 @@
 				item: { count: 1, id: "immersiveengineering:breaker_switch" }
 				type: "item"
 			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D9EDDCB32FE73CE"]
+			hide_dependency_lines: true
+			id: "481E4F3D3E282BAE"
+			tasks: [{
+				id: "22ECC4B671BAF4F4"
+				item: { count: 1, id: "immersiveengineering:radiator" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4D54EAF50B4A1699"
+				"481E4F3D3E282BAE"
+			]
+			hide_dependency_lines: true
+			id: "79BFB857C85D4B4A"
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:excavator"
+				}
+				id: "2607CC158C29A5E4"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:excavator"
+				type: "observation"
+			}]
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["79BFB857C85D4B4A"]
+			hide_dependency_lines: true
+			id: "7AF23BF9E1DD30FE"
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:bucket_wheel"
+				}
+				id: "20F097563C3D6614"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:bucket_wheel"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1FA46E37B238D4D5"]
+			hide_dependency_lines: true
+			id: "61C1DFBBF465BD0D"
+			tasks: [{
+				id: "41542F14F446A85E"
+				item: { count: 1, id: "immersiveengineering:wirecoil_redstone" }
+				type: "item"
+			}]
 			x: -5.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["61C1DFBBF465BD0D"]
+			hide_dependency_lines: true
+			id: "4D6E2BEB86943515"
+			tasks: [{
+				id: "427095C2886F94DC"
+				item: { count: 1, id: "immersiveengineering:connector_redstone" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4D6E2BEB86943515"]
+			id: "2989A7684E67D053"
+			tasks: [{
+				id: "781689ACE0636C41"
+				item: { count: 1, id: "immersiveengineering:redstone_timer" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4D6E2BEB86943515"]
+			id: "299EC6E5678106F4"
+			tasks: [{
+				id: "4BF6B079EA0550CB"
+				item: { count: 1, id: "immersiveengineering:siren" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4D54EAF50B4A1699"
+				"481E4F3D3E282BAE"
+			]
+			hide_dependency_lines: true
+			id: "713F97C914A2105A"
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:diesel_generator"
+				}
+				id: "22B1E1E8F4C1615C"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:diesel_generator"
+				type: "observation"
+			}]
+			x: 7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"17B77B48C6107884"
+				"15FCBB6AB9B4D96A"
+			]
+			hide_dependency_lines: true
+			id: "308CB89DA3313286"
+			tasks: [{
+				id: "5BB835170B329019"
+				item: { count: 1, id: "immersiveengineering:transformer" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"17B77B48C6107884"
+				"14811BA1B1E50AE3"
+			]
+			hide_dependency_lines: true
+			id: "15AF4E0A944088D1"
+			tasks: [{
+				id: "0803C8983493CFD1"
+				item: { count: 1, id: "immersiveengineering:transformer_hv" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
 		}
 	]
 }

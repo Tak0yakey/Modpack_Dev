@@ -311,5 +311,196 @@
 			x: 3.0d
 			y: 7.5d
 		}
+		{
+			id: "4E7F5C8DE10FA8DF"
+			tasks: [{
+				id: "4BD8CD81B3A2E711"
+				item: { count: 1, id: "dysoncubeproject:em_railejector_controller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4E7F5C8DE10FA8DF"]
+			id: "66CCF3E76ADBE6ED"
+			tasks: [{
+				id: "042B0B537B8C1444"
+				item: { count: 1, id: "dysoncubeproject:ray_receiver_controller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4E7F5C8DE10FA8DF"]
+			id: "251F042F7BB21894"
+			tasks: [{
+				id: "1B0ACE5A420B8DC4"
+				item: { count: 1, id: "dysoncubeproject:beam" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4E7F5C8DE10FA8DF"]
+			id: "6FF0D2315F6D543E"
+			tasks: [{
+				id: "1CE241C4B5E20152"
+				item: { count: 1, id: "dysoncubeproject:solar_sail" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["251F042F7BB21894"]
+			id: "297322B559119D16"
+			tasks: [{
+				id: "74E7BA3557DEC83B"
+				item: { count: 1, id: "dysoncubeproject:beam_package" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6FF0D2315F6D543E"]
+			id: "34D694258B2D65DC"
+			tasks: [{
+				id: "0BAF6E739E4FECF7"
+				item: { count: 1, id: "dysoncubeproject:solar_sail_package" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 12.0d
+		}
+		{
+			id: "76F180AF71F4FB86"
+			rewards: [{
+				id: "5ADE46F41BA4C679"
+				item: {
+					count: 1
+					id: "compactmachines:personal_shrinking_device"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6AEC0D3ADA80C5D0"
+					item: { count: 1, id: "compactmachines:shrinking_module" }
+					type: "item"
+				}
+				{
+					id: "34B0444C5E7EB0F5"
+					item: { count: 1, id: "compactmachines:enlarging_module" }
+					type: "item"
+				}
+				{
+					id: "665D8274E7F34805"
+					item: { count: 1, id: "compactmachines:wall" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["76F180AF71F4FB86"]
+			id: "4561236254DD3E80"
+			tasks: [{
+				id: "7EF27AB4CAAD2C64"
+				item: { components: { "compactmachines:machine_color": "#C95B13", "compactmachines:room_template": "compactmachines:tiny" }, count: 1, id: "compactmachines:new_machine" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["76F180AF71F4FB86"]
+			id: "0B0A0253BBF90090"
+			tasks: [{
+				id: "20E6ABD602053BAF"
+				item: { components: { "compactmachines:machine_color": "#D4D2D2", "compactmachines:room_template": "compactmachines:small" }, count: 1, id: "compactmachines:new_machine" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["76F180AF71F4FB86"]
+			id: "58FC7F2D61D7EE2F"
+			tasks: [{
+				id: "1DF2EB9A18CB916A"
+				item: { components: { "compactmachines:machine_color": "#FBF236", "compactmachines:room_template": "compactmachines:normal" }, count: 1, id: "compactmachines:new_machine" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["76F180AF71F4FB86"]
+			id: "1D3A967862181A98"
+			tasks: [{
+				id: "42EDD8AB58FB79CD"
+				item: { components: { "compactmachines:machine_color": "#00FF00", "compactmachines:room_template": "compactmachines:farming" }, count: 1, id: "compactmachines:new_machine" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["76F180AF71F4FB86"]
+			id: "37066E6906D7B24C"
+			tasks: [{
+				id: "52DC9AD2B1E9D563"
+				item: { components: { "compactmachines:machine_color": "#211B2E", "compactmachines:room_template": "compactmachines:large" }, count: 1, id: "compactmachines:new_machine" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["76F180AF71F4FB86"]
+			id: "75535D02A0904193"
+			tasks: [{
+				id: "147F6FB26F59DA4A"
+				item: { components: { "compactmachines:machine_color": "#43D6CD", "compactmachines:room_template": "compactmachines:giant" }, count: 1, id: "compactmachines:new_machine" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["76F180AF71F4FB86"]
+			id: "3664B05F2FC7494B"
+			tasks: [{
+				id: "2F0AD8CE10025604"
+				item: { components: { "compactmachines:machine_color": "#423F42", "compactmachines:room_template": "compactmachines:colossal" }, count: 1, id: "compactmachines:new_machine" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["76F180AF71F4FB86"]
+			id: "21E31F8DC4DBB83F"
+			tasks: [{
+				id: "6A4F0CC43781DB31"
+				item: { components: { "compactmachines:machine_color": "#7B2FBE", "compactmachines:room_template": "compactmachines:soaryn" }, count: 1, id: "compactmachines:new_machine" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
 	]
 }
