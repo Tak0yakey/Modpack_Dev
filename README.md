@@ -4,7 +4,7 @@
 
 ### Install Latest Modpack to Server
 ```bash
-wget http://url.nullwebservice.uk/PackInstaller && python3 Packinstaller https://github.com/Tak0yakey/Modpack_Dev/releases/download/latest/latest.mrpack`
+wget https://raw.githubusercontent.com/Tak0yakey/ModrinthServerPackInstaller/refs/heads/main/modrinth.py && python3 modrinth.py https://github.com/Tak0yakey/Modpack_Dev/releases/download/latest/latest.mrpack`
 ```
 
 ## CreateSimlinkToMinecraftFolder.sh
