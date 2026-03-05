@@ -850,7 +850,7 @@
             ],
             "env": {
                 "client": "required",
-                "server": "unsupported"
+                "server": "required"
             },
             "fileSize": 92698,
             "hashes": {
