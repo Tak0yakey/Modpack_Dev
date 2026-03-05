@@ -5,4 +5,5 @@
 !/kubejs/*
 !/config/
 !/config/*
+!/server.properties
 options.txt
