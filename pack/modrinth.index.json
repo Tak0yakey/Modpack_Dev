@@ -3657,7 +3657,7 @@
             },
             "env": {
                 "client": "required",
-                "server": "required"
+                "server": "unsupported"
             },
             "downloads": [
                 "https://cdn.modrinth.com/data/ndHYMY2K/versions/KZZ5gJA4/iris-flywheel-compat-NeoForge-2.1.2.jar"
