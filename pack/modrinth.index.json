@@ -3265,7 +3265,7 @@
             ],
             "env": {
                 "client": "required",
-                "server": "required"
+                "server": "unsupported"
             },
             "fileSize": 208486,
             "hashes": {
