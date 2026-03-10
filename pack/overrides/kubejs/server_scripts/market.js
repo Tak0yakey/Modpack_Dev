@@ -13,4 +13,20 @@ ServerEvents.recipes(event => {
             })
         }
     })
+
+    event.remove({ id: 'farmingforblockheads:market' })
+    event.shaped(
+        Item.of('farmingforblockheads:market',1),
+        [
+            'ABA',
+            'CDC',
+            'CCC'
+        ],
+        {
+            A: '#minecraft:planks',
+            B: 'minecraft:red_wool',
+            C: '#minecraft:logs',
+            D: 'minecraft:dragon_egg'
+        }
+    )
 })

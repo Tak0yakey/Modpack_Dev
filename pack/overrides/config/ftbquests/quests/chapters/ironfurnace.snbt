@@ -14,7 +14,7 @@
 				item: { count: 1, id: "ironfurnaces:copper_furnace" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
@@ -25,7 +25,178 @@
 				type: "item"
 			}]
 			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6924375F375A8D4E"
+				"560CED67BCB327F4"
+			]
+			dependency_requirement: "one_completed"
+			id: "4A09AABA5FA28DCF"
+			tasks: [{
+				id: "767A70AEC406BA9D"
+				item: { count: 1, id: "ironfurnaces:gold_furnace" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6924375F375A8D4E"
+				"5E1F5FCDDC87F784"
+			]
+			dependency_requirement: "one_completed"
+			id: "560CED67BCB327F4"
+			tasks: [{
+				id: "7A00B79E03959E1F"
+				item: { count: 1, id: "ironfurnaces:silver_furnace" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4A09AABA5FA28DCF"]
+			id: "213382CC476C7349"
+			tasks: [{
+				id: "66D50CE0A836876E"
+				item: { count: 1, id: "ironfurnaces:diamond_furnace" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["213382CC476C7349"]
+			id: "43A7029598966DC4"
+			tasks: [{
+				id: "063928B39A58E78B"
+				item: { count: 1, id: "ironfurnaces:emerald_furnace" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["213382CC476C7349"]
+			id: "120E1BBB5536478E"
+			tasks: [{
+				id: "3EF2ED69CFFCD35C"
+				item: { count: 1, id: "ironfurnaces:crystal_furnace" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"120E1BBB5536478E"
+				"43A7029598966DC4"
+			]
+			dependency_requirement: "one_completed"
+			id: "1C44D1B583533288"
+			tasks: [{
+				id: "1831D2041D699978"
+				item: { count: 1, id: "ironfurnaces:obsidian_furnace" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1C44D1B583533288"]
+			id: "397AF19C10816C61"
+			tasks: [{
+				id: "5F594C6D08F99C46"
+				item: { count: 1, id: "ironfurnaces:netherite_furnace" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"5E1F5FCDDC87F784"
+				"6924375F375A8D4E"
+				"560CED67BCB327F4"
+				"4A09AABA5FA28DCF"
+				"213382CC476C7349"
+				"120E1BBB5536478E"
+				"43A7029598966DC4"
+				"1C44D1B583533288"
+				"397AF19C10816C61"
+			]
+			hide_dependency_lines: true
+			id: "5632890C3BA1ED40"
+			tasks: [{
+				id: "325DFC1FE65D9E54"
+				item: { components: { "minecraft:custom_name": "{\"extra\":[{\"color\":\"red\",\"text\":\"R\"},{\"color\":\"light_purple\",\"text\":\"a\"},{\"color\":\"green\",\"text\":\"i\"},{\"color\":\"blue\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"b\"},{\"color\":\"light_purple\",\"text\":\"o\"},{\"color\":\"green\",\"text\":\"w\"},{\"color\":\"light_purple\",\"text\":\" \"},{\"color\":\"yellow\",\"text\":\"F\"},{\"color\":\"green\",\"text\":\"u\"},{\"color\":\"red\",\"text\":\"r\"},{\"color\":\"green\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"a\"},{\"color\":\"green\",\"text\":\"c\"},{\"color\":\"aqua\",\"text\":\"e\"}],\"text\":\"\"}" }, count: 1, id: "ironfurnaces:million_furnace" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 14.0d
+		}
+		{
+			id: "009F578885899A0F"
+			tasks: [{
+				id: "6C252C3569F8C3D7"
+				item: { count: 1, id: "ironfurnaces:augment_factory" }
+				type: "item"
+			}]
+			x: -3.0d
 			y: 0.0d
+		}
+		{
+			id: "1B8B0471E19FEABF"
+			tasks: [{
+				id: "7051C03656026C5A"
+				item: { count: 1, id: "ironfurnaces:augment_generator" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "02790A4E2C954CB6"
+			tasks: [{
+				id: "0A1CA9DCCE836ADF"
+				item: { count: 1, id: "ironfurnaces:augment_speed" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "5EB09BCBE9B9F0A5"
+			tasks: [{
+				id: "1C621EA51F735822"
+				item: { count: 1, id: "ironfurnaces:augment_fuel" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			id: "18B94AA06BBF8AF5"
+			tasks: [{
+				id: "13E8D92EE6B8DD91"
+				item: { count: 1, id: "ironfurnaces:augment_smoking" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			id: "3909B057CF1BB3D3"
+			tasks: [{
+				id: "6ADDA506A50051C4"
+				item: { count: 1, id: "ironfurnaces:augment_blasting" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
 		}
 	]
 }

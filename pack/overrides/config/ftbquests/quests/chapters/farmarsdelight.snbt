@@ -313,7 +313,7 @@
 			}]
 			tasks: [{
 				id: "49A37C80D8FFE5D1"
-				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "honey", "milk", "protected_by_totem" ], show_icon: 1b }, probability: 0.6f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:soy_sauce" }
+				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "milk", "protected_by_totem", "honey" ], show_icon: 1b }, probability: 0.6f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:soy_sauce" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -332,7 +332,7 @@
 			}]
 			tasks: [{
 				id: "4D9306862BCEFAD2"
-				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "honey", "milk", "protected_by_totem" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:cheese" }
+				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "milk", "protected_by_totem", "honey" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:cheese" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -351,7 +351,7 @@
 			}]
 			tasks: [{
 				id: "236052283CFAA3B6"
-				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "honey", "milk", "protected_by_totem" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:cooked_rice" }
+				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "milk", "protected_by_totem", "honey" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:cooked_rice" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -388,7 +388,7 @@
 			}]
 			tasks: [{
 				id: "3C82CCEE31E479CC"
-				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "honey", "milk", "protected_by_totem" ], show_icon: 1b }, probability: 0.6f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:wasabi_paste" }
+				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "milk", "protected_by_totem", "honey" ], show_icon: 1b }, probability: 0.6f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:wasabi_paste" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -408,7 +408,7 @@
 			}]
 			tasks: [{
 				id: "77571BBAFCCA981A"
-				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "honey", "milk", "protected_by_totem" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:shrimp" }
+				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "milk", "protected_by_totem", "honey" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:shrimp" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -428,7 +428,7 @@
 			}]
 			tasks: [{
 				id: "1CBF5CD1AF2ED045"
-				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "honey", "milk", "protected_by_totem" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:avocado_slices" }
+				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "milk", "protected_by_totem", "honey" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:avocado_slices" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -448,7 +448,7 @@
 			}]
 			tasks: [{
 				id: "298EF69E3A359B4F"
-				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "honey", "milk", "protected_by_totem" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:tuna_fillet" }
+				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "milk", "protected_by_totem", "honey" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:tuna_fillet" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -468,7 +468,7 @@
 			}]
 			tasks: [{
 				id: "2A300B105A38EEAD"
-				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "honey", "milk", "protected_by_totem" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:salmon_fillet" }
+				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "milk", "protected_by_totem", "honey" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:salmon_fillet" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -488,7 +488,7 @@
 			}]
 			tasks: [{
 				id: "26145D02FE62B64B"
-				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "honey", "milk", "protected_by_totem" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:cucumber_slices" }
+				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "milk", "protected_by_totem", "honey" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:cucumber_slices" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -508,7 +508,7 @@
 			}]
 			tasks: [{
 				id: "109459C211161FC5"
-				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "honey", "milk", "protected_by_totem" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:imitation_crab" }
+				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "milk", "protected_by_totem", "honey" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:imitation_crab" }
 				type: "item"
 			}]
 			x: 6.5d
@@ -528,7 +528,7 @@
 			}]
 			tasks: [{
 				id: "5454E21C5571C9D5"
-				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "honey", "milk", "protected_by_totem" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:sesame_seed" }
+				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "milk", "protected_by_totem", "honey" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:sesame_seed" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -548,7 +548,7 @@
 			}]
 			tasks: [{
 				id: "3043CC639A291328"
-				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "honey", "milk", "protected_by_totem" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:tobiko" }
+				item: { components: { "minecraft:food": { effects: [{ effect: { duration: 100, id: "minecraft:poison", "neoforge:cures": [ "milk", "protected_by_totem", "honey" ], show_icon: 1b }, probability: 0.01f }], nutrition: 2, saturation: 1.2f }, "sushigocrafting:amount": 0 }, count: 1, id: "sushigocrafting:tobiko" }
 				type: "item"
 			}]
 			x: 7.5d

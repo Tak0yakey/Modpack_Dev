@@ -29,7 +29,10 @@ ServerEvents.recipes(event => {
     )
 
     //trains
-    event.remove({ id: 'create:sequenced_assembly/track' })
+    const tracks = Ingredient.of('#create:tracks').itemIds
+    tracks.forEach(tracks =>{
+        event.remove({ output: tracks })
+    })
     event.remove({ id: 'create:crafting/kinetics/track_station' })
     event.remove({ id: 'create:crafting/kinetics/track_signal' })
     event.remove({ id: 'create:crafting/kinetics/track_observer' })
@@ -40,6 +43,14 @@ ServerEvents.recipes(event => {
     Color.DYE.forEach(color =>{
         event.remove({output : postboxes})
     })
+    event.remove({ id: 'railways:crafting/conductor_whistle'})
+    event.remove({ id: 'railways:crafting/handcar'})
+    event.remove({ id: 'railways:crafting/semaphore'})
+    event.remove({ id: 'railways:crafting/track_coupler'})
+    event.remove({ id: 'railways:crafting/fuel_tank'})
+    event.remove({ id: 'railways:portable_fuel_interface'})
+    event.remove({ id: 'railways:crafting/track_switch_andesite'})
+    event.remove({ id: 'railways:crafting/track_switch_brass'})
 
     //postlogistics
     event.remove({ id: 'create:crafting/logistics/stock_ticker'})

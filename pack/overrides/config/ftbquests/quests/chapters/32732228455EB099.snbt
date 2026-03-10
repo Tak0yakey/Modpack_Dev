@@ -403,7 +403,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 6.5d
 			y: 10.0d
 		}
 		{
@@ -415,7 +415,7 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 5.5d
 			y: 9.0d
 		}
 		{
@@ -427,7 +427,7 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 6.5d
 			y: 9.0d
 		}
 		{
@@ -439,7 +439,7 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 7.5d
 			y: 9.0d
 		}
 		{
@@ -451,7 +451,7 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 5.5d
 			y: 10.0d
 		}
 		{
@@ -463,7 +463,7 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 7.5d
 			y: 10.0d
 		}
 		{
@@ -475,7 +475,7 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 5.5d
 			y: 11.0d
 		}
 		{
@@ -487,7 +487,7 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 6.5d
 			y: 11.0d
 		}
 		{
@@ -499,8 +499,58 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 7.5d
 			y: 11.0d
+		}
+		{
+			id: "32C03DD26F82C835"
+			tasks: [
+				{
+					id: "6DAE5B6C1641F398"
+					item: { count: 1, id: "dimstorage:dim_wall" }
+					type: "item"
+				}
+				{
+					id: "0232B1C6C1318107"
+					item: { count: 1, id: "dimstorage:solid_dim_core" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["32C03DD26F82C835"]
+			id: "61F2ADAF971C14FF"
+			tasks: [{
+				id: "30760CD697AA29BF"
+				item: { count: 1, id: "dimstorage:dimensional_tablet" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["32C03DD26F82C835"]
+			id: "53CE5A86528DE6EF"
+			tasks: [{
+				id: "62402226C681A2E5"
+				item: { count: 1, id: "dimstorage:dimensional_chest" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["32C03DD26F82C835"]
+			id: "2134CF67D4D28FCF"
+			tasks: [{
+				id: "581C4DB2E3368845"
+				item: { count: 1, id: "dimstorage:dimensional_tank" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
 		}
 	]
 }
