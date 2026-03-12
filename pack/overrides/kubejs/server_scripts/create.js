@@ -28,6 +28,8 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.remove({ id: 'createdeco:pressing/zinc_sheet5' })
+
     //trains
     const tracks = Ingredient.of('#create:tracks').itemIds
     tracks.forEach(tracks =>{

@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "appliedenergistics2"
 	group: ""
+	icon: {
+		id: "ae2:controller"
+	}
 	id: "60278A4D0CB456BD"
 	order_index: 11
 	quest_links: [ ]

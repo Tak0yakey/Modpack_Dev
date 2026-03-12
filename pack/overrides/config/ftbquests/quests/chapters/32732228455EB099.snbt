@@ -552,5 +552,104 @@
 			x: 3.0d
 			y: 9.0d
 		}
+		{
+			id: "17B6F103CC129082"
+			tasks: [{
+				id: "612D1718369699F6"
+				item: { count: 1, id: "botanypots:terracotta_hopper_botany_pot" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["17B6F103CC129082"]
+			id: "5F8D6654C907DF66"
+			tasks: [{
+				id: "5E3C79B9967F844D"
+				item: { count: 1, id: "botanypotstiers:elite_terracotta_hopper_botany_pot" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5F8D6654C907DF66"]
+			id: "17A9148F1AC1CF4C"
+			tasks: [{
+				id: "30019F4519C5760D"
+				item: { count: 1, id: "botanypotstiers:ultra_terracotta_hopper_botany_pot" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["17A9148F1AC1CF4C"]
+			id: "23BB67111A036144"
+			tasks: [{
+				id: "1FBCED2BD12F4708"
+				item: { count: 1, id: "botanypotstiers:mega_terracotta_hopper_botany_pot" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["17B6F103CC129082"]
+			id: "5E1D3700DAD2B039"
+			tasks: [{
+				id: "369C6A768C384D70"
+				item: { count: 1, id: "dimbotanypots:dimensional_botany_pot" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"5E1D3700DAD2B039"
+				"5F8D6654C907DF66"
+			]
+			dependency_requirement: "one_completed"
+			id: "014F441C011EEA06"
+			tasks: [{
+				id: "7EE267F0026D6ACA"
+				item: { count: 1, id: "dimbotanypots:elite_dimensional_botany_pot" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"014F441C011EEA06"
+				"17A9148F1AC1CF4C"
+			]
+			dependency_requirement: "one_completed"
+			id: "21CA3578F7F515D7"
+			tasks: [{
+				id: "5870AF2282D1C10A"
+				item: { count: 1, id: "dimbotanypots:ultra_dimensional_botany_pot" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"21CA3578F7F515D7"
+				"23BB67111A036144"
+			]
+			dependency_requirement: "one_completed"
+			id: "04CE959E8F808CBB"
+			tasks: [{
+				id: "498B918EF7560F90"
+				item: { count: 1, id: "dimbotanypots:mega_dimensional_botany_pot" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 10.0d
+		}
 	]
 }

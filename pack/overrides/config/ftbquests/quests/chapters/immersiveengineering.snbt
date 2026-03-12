@@ -277,7 +277,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["09C8A9BFDD9DA78D"]
@@ -753,7 +753,7 @@
 				item: { count: 1, id: "immersiveengineering:component_electronic" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: 10.0d
 		}
 		{
@@ -818,7 +818,7 @@
 				item: { count: 1, id: "immersiveengineering:component_electronic_adv" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: 9.0d
 		}
 		{
@@ -1261,6 +1261,34 @@
 			}]
 			x: -7.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["2082A919F49D9B4A"]
+			hide_dependency_lines: true
+			id: "1F10039539346E6A"
+			tasks: [{
+				id: "2E5AB85DB864FD4C"
+				item: { count: 1, id: "immersiveengineering:light_bulb" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"1F10039539346E6A"
+				"61C3A5624D8C682C"
+				"4EA95CD15117E837"
+			]
+			hide_dependency_lines: true
+			id: "265F09B246D4BD0A"
+			tasks: [{
+				id: "67447D89F736EAAD"
+				item: { count: 1, id: "immersiveengineering:cloche" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.5d
 		}
 	]
 }

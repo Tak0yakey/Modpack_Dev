@@ -3,6 +3,12 @@
 	default_quest_shape: ""
 	filename: "ironfurnace"
 	group: ""
+	icon: {
+		components: {
+			"minecraft:custom_name": "{\"extra\":[{\"color\":\"blue\",\"text\":\"R\"},{\"color\":\"aqua\",\"text\":\"a\"},{\"color\":\"red\",\"text\":\"i\"},{\"color\":\"light_purple\",\"text\":\"n\"},{\"color\":\"green\",\"text\":\"b\"},{\"color\":\"blue\",\"text\":\"o\"},{\"color\":\"light_purple\",\"text\":\"w\"},{\"color\":\"aqua\",\"text\":\" \"},{\"color\":\"light_purple\",\"text\":\"F\"},{\"color\":\"green\",\"text\":\"u\"},{\"color\":\"light_purple\",\"text\":\"r\"},{\"color\":\"yellow\",\"text\":\"n\"},{\"color\":\"green\",\"text\":\"a\"},{\"color\":\"aqua\",\"text\":\"c\"},{\"color\":\"light_purple\",\"text\":\"e\"}],\"text\":\"\"}"
+		}
+		id: "ironfurnaces:million_furnace"
+	}
 	id: "73DD6A092092C78E"
 	order_index: 10
 	quest_links: [ ]
