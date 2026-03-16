@@ -50,23 +50,6 @@
 			y: 2.0d
 		}
 		{
-			icon: {
-				id: "parcool:zipline_rope"
-			}
-			id: "4A51980B866E9FE6"
-			rewards: [{
-				id: "6EFB0BA119467958"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "0FAE9D393A46D4A9"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 2.0d
-		}
-		{
 			id: "2C7C4D04B89EBE60"
 			rewards: [{
 				id: "12B3B36485B27AD2"
@@ -109,8 +92,8 @@
 				item: { count: 1, id: "gamediscs:gaming_console" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			icon: {
@@ -166,7 +149,17 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.0d
+			y: 4.0d
+		}
+		{
+			id: "5F5628D82DD6C962"
+			tasks: [{
+				id: "7044463882FE4E4D"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
 		}
 	]
 }

@@ -53,31 +53,6 @@
 			y: 0.0d
 		}
 		{
-			can_repeat: true
-			disable_recipe_mod: true
-			disable_toast: true
-			icon: {
-				id: "waystones:return_scroll"
-			}
-			id: "0EF5FCAA2FFC673E"
-			optional: true
-			rewards: [{
-				command: "/warp home"
-				icon: {
-					id: "minecraft:ender_pearl"
-				}
-				id: "7BDB7D39DC105198"
-				team_reward: false
-				type: "command"
-			}]
-			tasks: [{
-				id: "3DE85514D48BB602"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
 			icon: {
 				id: "createdeco:decal_skull"
 			}
@@ -121,7 +96,7 @@
 				type: "checkmark"
 			}]
 			x: 3.0d
-			y: 3.0d
+			y: 0.0d
 		}
 		{
 			icon: {
@@ -157,8 +132,8 @@
 				to_observe: "fluxnetworks:flux_controller"
 				type: "observation"
 			}]
-			x: 0.0d
-			y: 6.0d
+			x: 3.0d
+			y: 3.0d
 		}
 	]
 }

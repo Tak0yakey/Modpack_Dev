@@ -560,7 +560,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["17B6F103CC129082"]
@@ -571,7 +571,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5F8D6654C907DF66"]
@@ -582,7 +582,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["17A9148F1AC1CF4C"]
@@ -593,7 +593,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["17B6F103CC129082"]
@@ -604,7 +604,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -619,7 +619,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -634,7 +634,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -649,7 +649,83 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: 10.0d
+			y: 11.0d
+		}
+		{
+			id: "7940952EAB8574EE"
+			tasks: [{
+				id: "6B4F4391399B3D1B"
+				item: { count: 1, id: "cobblegengalore:block_gen_stone" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7940952EAB8574EE"]
+			id: "72C9D15782E112C0"
+			tasks: [{
+				id: "51213278A4135A87"
+				item: { count: 1, id: "cobblegengalore:block_gen_copper" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["72C9D15782E112C0"]
+			id: "1F948CFE8E9EE84A"
+			tasks: [{
+				id: "75C39A2870F417CD"
+				item: { count: 1, id: "cobblegengalore:block_gen_iron" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1F948CFE8E9EE84A"]
+			id: "6875FEA9D9492EA3"
+			tasks: [{
+				id: "11377BB470912F2B"
+				item: { count: 1, id: "cobblegengalore:block_gen_gold" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6875FEA9D9492EA3"]
+			id: "7B827EA8DF5D10FF"
+			tasks: [{
+				id: "00F9C8C6751780CA"
+				item: { count: 1, id: "cobblegengalore:block_gen_emerald" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7B827EA8DF5D10FF"]
+			id: "010E9B4389F76910"
+			tasks: [{
+				id: "750662D6711AE0C2"
+				item: { count: 1, id: "cobblegengalore:block_gen_diamond" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["010E9B4389F76910"]
+			id: "0F119480BE03765F"
+			tasks: [{
+				id: "5A09C41D9D8A45AB"
+				item: { count: 1, id: "cobblegengalore:block_gen_netherite" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 9.0d
 		}
 	]
 }

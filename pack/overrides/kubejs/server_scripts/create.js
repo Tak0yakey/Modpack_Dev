@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
         }
     )
 
-    event.remove({ id: 'createdeco:pressing/zinc_sheet5' })
+    event.remove({ id: 'createdeco:pressing/zinc_sheet' })
 
     //trains
     const tracks = Ingredient.of('#create:tracks').itemIds
@@ -67,4 +67,5 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crafting/logistics/package_filter'})
     event.remove({ id: 'create:crafting/logistics/repackager_from_conversion'})
     event.remove({ id: 'create:crafting/logistics/packager'})
+    event.remove({ id: 'create:crafting/kinetics/package_filter'})
 })

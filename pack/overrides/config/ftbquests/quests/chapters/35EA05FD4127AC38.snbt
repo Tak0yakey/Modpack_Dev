@@ -94,7 +94,7 @@
 		{
 			id: "24017149C8C8FFF1"
 			rewards: [{
-				count: 64
+				count: 16
 				id: "31F6A3D267D1C343"
 				item: {
 					count: 1
@@ -143,7 +143,7 @@
 				item: { count: 1, id: "industrially_plated:gray_plating_block" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 4.0d
 		}
 		{
@@ -174,7 +174,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			icon: {
@@ -251,6 +251,65 @@
 			}]
 			x: 2.0d
 			y: 2.0d
+		}
+		{
+			id: "6A7ADC89F47A1255"
+			tasks: [
+				{
+					id: "4D55A0ABE28C906E"
+					item: { count: 1, id: "camol:camo_item" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2502B23FE26C9817"
+					item: { count: 1, id: "camol:solid_camo_item" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "3232E4A3F5318948"
+			tasks: [{
+				id: "4818DD9AF2C6BA7D"
+				item: { count: 1, id: "pretty_in_pink:gray_steel_block" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "57FF4CC44C6D6338"
+			tasks: [{
+				id: "382DBC27421D00D4"
+				item: { count: 1, id: "railways:riveted_locometal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "7F0186269CC54288"
+			tasks: [{
+				id: "39A918527F6C983F"
+				item: { count: 1, id: "i_architecture:metal_plate_block" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "39C58B1E685C5957"
+			tasks: [{
+				id: "7C5940F43F092B52"
+				item: { count: 1, id: "createdeco:andesite_sheet_metal" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
 		}
 	]
 }

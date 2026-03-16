@@ -60,4 +60,20 @@ ServerEvents.recipes(event => {
             "time": 15000
         }
     )
+    event.custom(
+        {
+            "type": "create:haunting",
+            "ingredients": [
+                {
+                    "item": "minecraft:lapis_block"
+                }
+            ],
+            "results": [
+                {
+                    "count": 6,
+                    "id": "minecraft:prismarine_shard"
+                }
+            ]
+        }
+    )
 })
