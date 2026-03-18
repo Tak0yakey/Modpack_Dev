@@ -2001,21 +2001,6 @@
         },
         {
             "downloads": [
-                "https://cdn.modrinth.com/data/51shyZVL/versions/2w0zNJb4/moreculling-neoforge-1.21.1-1.0.6.jar"
-            ],
-            "env": {
-                "client": "required",
-                "server": "unsupported"
-            },
-            "fileSize": 342982,
-            "hashes": {
-                "sha1": "f6f43344e0622ac05ad7aca5378ec35aad31ac30",
-                "sha512": "fa0081e9aae10d31f30a0f829bafe62768a6536123d8cb5abdebeebbb4e90dc72732d35165452a324bbdb93b3bb4d357427a205b502d063459a15ceb6e280a92"
-            },
-            "path": "mods/moreculling-neoforge-1.21.1-1.0.6.jar"
-        },
-        {
-            "downloads": [
                 "https://cdn.modrinth.com/data/SNVQ2c0g/versions/qYqVf5jP/mru-1.0.19%2BLTS%2B1.21.1%2Bneoforge.jar"
             ],
             "env": {
