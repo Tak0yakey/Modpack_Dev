@@ -2300,19 +2300,34 @@
             "path": "mods/railways-0.1.0+neoforge-mc1.21.1.jar"
         },
         {
+            "path": "mods/rechiseled-1.2.4-neoforge-mc1.21.jar",
+            "hashes": {
+                "sha512": "b78f014060b82eea020640a10cc3e774cb355f5289e91191f2f0122eeb4240eac920b3991d10fd1d8628ebf2248322ddf5703117c55783de3d9948fabbd4e2f8",
+                "sha1": "bd8ac0c82a04179c649f40b3333ff0648f444086"
+            },
+            "env": {
+                "server": "required",
+                "client": "required"
+            },
             "downloads": [
-                "https://cdn.modrinth.com/data/B0g2vT6l/versions/UZPjD9WH/rechiseled-1.1.6a-neoforge-mc1.21.jar"
+                "https://cdn.modrinth.com/data/B0g2vT6l/versions/b3uurWWs/rechiseled-1.2.4-neoforge-mc1.21.jar"
             ],
+            "fileSize": 11488067
+        },
+        {
+            "path": "mods/rechiseledae-1.0.0-neoforge-mc1.21.1.jar",
+            "hashes": {
+                "sha1": "ac8ab5abd364ef98a5f768e4164c6efe54d95f26",
+                "sha512": "446a6be9da67201062602e3e4e9e97522aa4a0232f2ceddb04c2235db54649feb6a11bfaf70d5762147a46079036c629f10adce6710e60c9c9a489471e55a3d9"
+            },
             "env": {
                 "client": "required",
                 "server": "required"
             },
-            "fileSize": 3484553,
-            "hashes": {
-                "sha1": "26e4487b4e4441702a984c12af5e521b4b1b0bef",
-                "sha512": "522c870ce447eed0ffe269805f5bd3d776a960249f864a49ba3f203bff2d2f353cc62cd79978fd9a352d68b312e0f02f918d53b3f66869c80c9c9af311e5b534"
-            },
-            "path": "mods/rechiseled-1.1.6a-neoforge-mc1.21.jar"
+            "downloads": [
+                "https://cdn.modrinth.com/data/1Tpwnc5h/versions/6c7EK0XK/rechiseledae-1.0.0-neoforge-mc1.21.1.jar"
+            ],
+            "fileSize": 909394
         },
         {
             "downloads": [
@@ -2330,19 +2345,19 @@
             "path": "mods/rechiseled_chipped-1.4.1-1.21.1.jar"
         },
         {
-            "downloads": [
-                "https://cdn.modrinth.com/data/E6867niZ/versions/nVRC1t23/rechiseledcreate-1.0.2a-neoforge-mc1.21.jar"
-            ],
-            "env": {
-                "client": "required",
-                "server": "required"
-            },
-            "fileSize": 658173,
+            "path": "mods/rechiseledcreate-1.1.0-neoforge-mc1.21.jar",
             "hashes": {
-                "sha1": "62ede9990220a5cb8397ee04c62fc2a4b0a25467",
-                "sha512": "5fcb978c04e3bff7b5a60e2589f0fd206169c6b26828a3c310aeb93d52ec93f594986006ac2d507d049a3b9ac8d1089a255034c7c7948cd3945b135581ee6cce"
+                "sha1": "64f92a5e2f158935e4188bb3966a47aa15083e17",
+                "sha512": "f5ef2ed26e82adcdf403430f9d0ea57cbff616a7d964b9891eb0a06107f180e740c47284a44a4c8733fddc6d8f58637e71edee68ff853d938df0dbf2b7084fe0"
             },
-            "path": "mods/rechiseledcreate-1.0.2a-neoforge-mc1.21.jar"
+            "env": {
+                "server": "required",
+                "client": "required"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/E6867niZ/versions/TzPaH8MY/rechiseledcreate-1.1.0-neoforge-mc1.21.jar"
+            ],
+            "fileSize": 981192
         },
         {
             "downloads": [
@@ -2630,19 +2645,19 @@
             "path": "mods/supermartijn642configlib-1.1.8-neoforge-mc1.21.jar"
         },
         {
-            "downloads": [
-                "https://cdn.modrinth.com/data/rOUBggPv/versions/lhA84Gn9/supermartijn642corelib-1.1.19-neoforge-mc1.21.jar"
-            ],
-            "env": {
-                "client": "required",
-                "server": "required"
-            },
-            "fileSize": 519542,
+            "path": "mods/supermartijn642corelib-1.1.20-neoforge-mc1.21.jar",
             "hashes": {
-                "sha1": "7288a5f11ffedc72495d0afaca64f2e83f9c9c0f",
-                "sha512": "80aec2e9828c2a140972750e5ef38fcad099502f0e3c4715a970d1b646a92dbd7e30228fdf97c7a7523531880022ea41398fde3b070fb50e101681082be82f95"
+                "sha1": "c665416c3a00bcf4eb3eea3ca2057c8d7416c316",
+                "sha512": "a204d917f6780813dbecf46cb509eaa4236588dc26760a5e9204c98bb00c1cd01b1a4a859379234125501a30712a565e05f98e29f950e6eff0551a4a41af59d8"
             },
-            "path": "mods/supermartijn642corelib-1.1.19-neoforge-mc1.21.jar"
+            "env": {
+                "server": "required",
+                "client": "required"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/rOUBggPv/versions/MQOzQxLt/supermartijn642corelib-1.1.20-neoforge-mc1.21.jar"
+            ],
+            "fileSize": 558373
         },
         {
             "downloads": [
@@ -2928,6 +2943,21 @@
                 "sha512": "ce41ce418f42c663ca7dfa96cd3ff78a797754ef6ba1ebf618c77ebd55794c8b885d56052944263b7baaa6524f19a5fd53c5ddd15b93e19fb8feec76f0ce0ebe"
             },
             "path": "mods/zume-1.2.1.jar"
+        },
+        {
+            "path": "mods/iris-flywheel-compat-NeoForge-2.1.2.jar",
+            "hashes": {
+                "sha512": "216f78878c06f2bd329cfefe9b3f7540a08422e01dd9022e369a8f32678ffca291f846e2e5379b42ebff9193300100e03771b8bf69f4fdb49de0184aa607c6b2",
+                "sha1": "c7528182a380494a98d1b6aacabb52ae771dd4a6"
+            },
+            "env": {
+                "client": "required",
+                "server": "unsupported"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/ndHYMY2K/versions/KZZ5gJA4/iris-flywheel-compat-NeoForge-2.1.2.jar"
+            ],
+            "fileSize": 893987
         },
         {
             "downloads": [
@@ -3663,21 +3693,6 @@
                 "sha512": "3e99a6a70db7b96eb74800d8eb1598ac2fcf1b481cca40b7d9e9aa16cfc9b2b47ead8c192cb86cf00b03caf9c2f98223c5ccd550854dbec3c22a5e974a1dea35"
             },
             "path": "mods/crystalix-2.4.0.jar"
-        },
-        {
-            "path": "mods/iris-flywheel-compat-NeoForge-2.1.2.jar",
-            "hashes": {
-                "sha512": "216f78878c06f2bd329cfefe9b3f7540a08422e01dd9022e369a8f32678ffca291f846e2e5379b42ebff9193300100e03771b8bf69f4fdb49de0184aa607c6b2",
-                "sha1": "c7528182a380494a98d1b6aacabb52ae771dd4a6"
-            },
-            "env": {
-                "client": "required",
-                "server": "unsupported"
-            },
-            "downloads": [
-                "https://cdn.modrinth.com/data/ndHYMY2K/versions/KZZ5gJA4/iris-flywheel-compat-NeoForge-2.1.2.jar"
-            ],
-            "fileSize": 893987
         }
     ],
     "formatVersion": 1,
