@@ -1415,19 +1415,19 @@
             "path": "mods/etched-5.0.0.jar"
         },
         {
-            "downloads": [
-                "https://cdn.modrinth.com/data/eiktJyw1/versions/uc8dsG0Y/everycomp-1.21-2.11.24-neoforge.jar"
-            ],
-            "env": {
-                "client": "required",
-                "server": "required"
-            },
-            "fileSize": 2630416,
+            "path": "mods/everycomp-1.21-2.11.32-neoforge.jar",
             "hashes": {
-                "sha1": "3cc7b4ba71665abcbc03d3b769164f330ba13859",
-                "sha512": "5da0e352ed6434299c66b636b83b21618554cdb899969440bcd596dd4fa2b4c5039e053bddc8342e9cccc859e9353e6a389cc3530b069b2d16559f5c4a891802"
+                "sha1": "3aff2599a0eab4aa54de5e602abb0bb9f47b6dc2",
+                "sha512": "4e584299e2d8be145b23f2d491dfa993e10a74a7fa406f79b9d08d7d59dec2e4eff2465b7df9b19ce7e44252435e6e9b5e3357e48e0a03d8be33df5263cbc0ec"
             },
-            "path": "mods/everycomp-1.21-2.11.24-neoforge.jar"
+            "env": {
+                "server": "required",
+                "client": "required"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/eiktJyw1/versions/GBjVkH56/everycomp-1.21-2.11.32-neoforge.jar"
+            ],
+            "fileSize": 2644107
         },
         {
             "downloads": [
@@ -1458,6 +1458,21 @@
                 "sha512": "a6c7a79bc2cd860ff26e20765babaeb94177dae924efeb2a6ca3e4cb0ccc1be0d2febe486f34615000b73514fe1a0c2f83f42e96e39794e674a48b078d426959"
             },
             "path": "mods/flerovium-neoforge-1.21.1-1.0.17-all.jar"
+        },
+        {
+            "path": "mods/gemsrealm-1.21-2.11.2-neoforge.jar",
+            "hashes": {
+                "sha1": "33bad92121666107d3de22dd370257d4b227d81a",
+                "sha512": "9893020cd55408376fdb03787dfb0dbdc36d49c20db83adf52646f5f33e5d93c61a912cc6a8e401dcac6020327c0fe6fc4590fb729170229dd9337b950afbc00"
+            },
+            "env": {
+                "server": "required",
+                "client": "required"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/v259p1An/versions/U9jBYib3/gemsrealm-1.21-2.11.2-neoforge.jar"
+            ],
+            "fileSize": 868706
         },
         {
             "downloads": [
@@ -2600,19 +2615,19 @@
             "path": "mods/spark-1.10.124-neoforge.jar"
         },
         {
-            "downloads": [
-                "https://cdn.modrinth.com/data/uYwn8IP5/versions/ICodfisg/stonezone-1.21-2.11.7-neoforge.jar"
-            ],
-            "env": {
-                "client": "required",
-                "server": "required"
-            },
-            "fileSize": 787743,
+            "path": "mods/stonezone-1.21-2.11.14-neoforge.jar",
             "hashes": {
-                "sha1": "a10a8fc7f305fc0aa33331ea5c46fdae7fbcd76e",
-                "sha512": "c8bc2cfc9e7db27c76422c993a3e2babaa92dadce6697b5fb1464f33944de47189fdd3cc16025d6ab8383e923f104b77f6bd34c0bf9e4108c960950c5bb4afa0"
+                "sha512": "497a4710144629e35541f9d9eb6d25e0105f3ac4cb36c6d3b2f3d7c897ee3fdd9cbea87a277cfdea316f1ad7e452d7c6cf4d1a05b5406e2dc0de3d86d7473cb3",
+                "sha1": "19fcb2adaf7dcf4f25ec608af0bc9dfffc1f1d92"
             },
-            "path": "mods/stonezone-1.21-2.11.7-neoforge.jar"
+            "env": {
+                "server": "required",
+                "client": "required"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/uYwn8IP5/versions/rqSSytNz/stonezone-1.21-2.11.14-neoforge.jar"
+            ],
+            "fileSize": 817600
         },
         {
             "downloads": [
