@@ -3678,6 +3678,20 @@
                 "sha512": "3e99a6a70db7b96eb74800d8eb1598ac2fcf1b481cca40b7d9e9aa16cfc9b2b47ead8c192cb86cf00b03caf9c2f98223c5ccd550854dbec3c22a5e974a1dea35"
             },
             "path": "mods/crystalix-2.4.0.jar"
+        },
+        {
+            "downloads": [
+                "https://github.com/cpburnz/minecraft-prometheus-exporter/releases/download/1.21.1-neoforge-1.2.1/Prometheus-Exporter-1.21.1-neoforge-1.2.1.jar"
+            ],
+            "env": {
+                "client": "unsupported",
+                "server": "required"
+            },
+            "fileSize": 159065,
+            "hashes": {
+                "sha1": "9942bd40a05c391386c0ff057d78d69a9fc8df15",
+                "sha512": "4fae25e1ad32676e243374a842aba3ae713929b4dd20680859d3032e75fd7cf773726d2f5ae8a5d01c3734178e99e17fea60283aa0ea30cf3097b80297aca953"
+            }
         }
     ],
     "formatVersion": 1,
