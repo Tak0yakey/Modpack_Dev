@@ -808,7 +808,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["1316ABBBE16E9511"]
@@ -994,8 +994,8 @@
 				item: { count: 1, id: "ae2wtlib:magnet_card" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 11.0d
+			x: -3.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["6857AEC899D27F26"]
@@ -1017,7 +1017,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -1452,7 +1452,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 12.0d
+			y: 13.0d
 		}
 		{
 			dependencies: [
@@ -2404,6 +2404,17 @@
 			}]
 			x: -7.0d
 			y: 10.0d
+		}
+		{
+			dependencies: ["6857AEC899D27F26"]
+			id: "6862351F058350A8"
+			tasks: [{
+				id: "261138EDFFE3C2E6"
+				item: { count: 1, id: "ae2:inverter_card" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.0d
 		}
 	]
 }
