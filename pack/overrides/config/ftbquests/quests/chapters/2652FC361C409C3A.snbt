@@ -57,11 +57,6 @@
 				id: "createdeco:decal_skull"
 			}
 			id: "44F44D0668A6AA88"
-			rewards: [{
-				id: "45D84BBC783F7E0B"
-				type: "xp"
-				xp: 100
-			}]
 			tasks: [{
 				id: "2599DE5013285B96"
 				type: "checkmark"
@@ -74,11 +69,6 @@
 				id: "supplementaries:key"
 			}
 			id: "0DEA3B458109E284"
-			rewards: [{
-				id: "36C059FB6C2AA315"
-				type: "xp"
-				xp: 100
-			}]
 			tasks: [{
 				id: "1944ACDDC04094F9"
 				type: "checkmark"
@@ -103,11 +93,6 @@
 				id: "create:track"
 			}
 			id: "380CE6AD0275E269"
-			rewards: [{
-				id: "69430CB33B9D0239"
-				type: "xp"
-				xp: 100
-			}]
 			tasks: [{
 				id: "5F35E0C3C57F10F5"
 				type: "checkmark"
@@ -120,11 +105,6 @@
 				id: "fluxnetworks:flux_controller"
 			}
 			id: "75E96A0CC9BAB581"
-			rewards: [{
-				id: "3341623E10DD5079"
-				type: "xp"
-				xp: 100
-			}]
 			tasks: [{
 				id: "335398556D4413B0"
 				observe_type: 0

@@ -6,4 +6,15 @@ ServerEvents.recipes(event => {
             'justdirethings:portal_fluid_catalyst'
         ]
     )
+    event.shaped(
+        Item.of('etched:blank_music_disc',1),
+        [
+            ' A ',
+            'A A',
+            ' A '
+        ],
+        {
+            A: '#c:plates/plastic'
+        }
+    )
 })
