@@ -3692,6 +3692,21 @@
                 "sha1": "9942bd40a05c391386c0ff057d78d69a9fc8df15",
                 "sha512": "4fae25e1ad32676e243374a842aba3ae713929b4dd20680859d3032e75fd7cf773726d2f5ae8a5d01c3734178e99e17fea60283aa0ea30cf3097b80297aca953"
             }
+        },
+        {
+            "path": "mods/ExtendedCrafting-1.21.1-7.0.8.jar",
+            "hashes": {
+                "sha1": "cd6c70ecdbd8d1ce127a89413b5f1f167ab08ff8",
+                "sha512": "7b204885876645f6fbe479f4795be7b5961f141b3f654691fae91acadf39e562ab96a8d066a2c3b70e381cd6b3f9adaf56c11b1dafbe0a28a886f4d44687e07e"
+            },
+            "env": {
+                "client": "required",
+                "server": "required"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/5JMG1gql/versions/Pb2OHQ8E/ExtendedCrafting-1.21.1-7.0.8.jar"
+            ],
+            "fileSize": 670774
         }
     ],
     "formatVersion": 1,
