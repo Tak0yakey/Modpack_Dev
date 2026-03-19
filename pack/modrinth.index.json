@@ -1415,19 +1415,34 @@
             "path": "mods/etched-5.0.0.jar"
         },
         {
-            "downloads": [
-                "https://cdn.modrinth.com/data/eiktJyw1/versions/uc8dsG0Y/everycomp-1.21-2.11.24-neoforge.jar"
-            ],
+            "path": "mods/everycomp-1.21-2.11.30-neoforge.jar",
+            "hashes": {
+                "sha512": "368c14e6859355f74f10fa01a2ada412fb424c1dc36c076217890ef9c8c7ddff2bdf4e87891fee549389a342b7efb1ac822eaeabb74fdfaa501677be8a711cb7",
+                "sha1": "abcb516dee55d74110e88be9f6426329405f943d"
+            },
             "env": {
                 "client": "required",
                 "server": "required"
             },
-            "fileSize": 2630416,
+            "downloads": [
+                "https://cdn.modrinth.com/data/eiktJyw1/versions/uvJ8XuwL/everycomp-1.21-2.11.30-neoforge.jar"
+            ],
+            "fileSize": 2642768
+        },
+        {
+            "path": "mods/gemsrealm-1.21-2.11.0-neoforge.jar",
             "hashes": {
-                "sha1": "3cc7b4ba71665abcbc03d3b769164f330ba13859",
-                "sha512": "5da0e352ed6434299c66b636b83b21618554cdb899969440bcd596dd4fa2b4c5039e053bddc8342e9cccc859e9353e6a389cc3530b069b2d16559f5c4a891802"
+                "sha512": "c67897da816e9c6ceefd918898164574def497a1875828efc8bbcc61dc765fa6b90ec469644890e1db860d5842c78a833494f9085a7b8b00c0ea05f41cf93fcb",
+                "sha1": "523f5afd0634035f4dab28cbd528fed38b73f175"
             },
-            "path": "mods/everycomp-1.21-2.11.24-neoforge.jar"
+            "env": {
+                "server": "required",
+                "client": "required"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/v259p1An/versions/5Ffp9yYx/gemsrealm-1.21-2.11.0-neoforge.jar"
+            ],
+            "fileSize": 865478
         },
         {
             "downloads": [
@@ -1985,19 +2000,19 @@
             "path": "mods/modular-routers-13.2.3+mc1.21.1.jar"
         },
         {
-            "downloads": [
-                "https://cdn.modrinth.com/data/twkfQtEc/versions/exrfFGTi/moonlight-1.21-2.29.14-neoforge.jar"
-            ],
+            "path": "mods/moonlight-1.21-2.29.20-neoforge.jar",
+            "hashes": {
+                "sha512": "d458623ceba37345a17f0177cd5b2bcebfec2fce88106b3f08be81a84949fe5f7ba23caae7fdc4d5618a8f467f3774dbde2062a08211eb1e7d3a372403cb5fb4",
+                "sha1": "07a5ff9e0a1b05cd78ecfcade4754978f62e3725"
+            },
             "env": {
                 "client": "required",
                 "server": "required"
             },
-            "fileSize": 1571517,
-            "hashes": {
-                "sha1": "d365d1f108f2ebc3016c753f05e5034902b9e05e",
-                "sha512": "9d3930466ba4eaa5bf1443f14cba9ba8d8e49131bb73736518014923c0a95857ff6d47f9435dc8c1cad8e29b40094bf193a10995f66649f9671f47fbd75e8ebd"
-            },
-            "path": "mods/moonlight-1.21-2.29.14-neoforge.jar"
+            "downloads": [
+                "https://cdn.modrinth.com/data/twkfQtEc/versions/tvtZQ9Pp/moonlight-1.21-2.29.20-neoforge.jar"
+            ],
+            "fileSize": 1584603
         },
         {
             "downloads": [
@@ -2585,19 +2600,19 @@
             "path": "mods/spark-1.10.124-neoforge.jar"
         },
         {
-            "downloads": [
-                "https://cdn.modrinth.com/data/uYwn8IP5/versions/ICodfisg/stonezone-1.21-2.11.7-neoforge.jar"
-            ],
-            "env": {
-                "client": "required",
-                "server": "required"
-            },
-            "fileSize": 787743,
+            "path": "mods/stonezone-1.21-2.11.12-neoforge.jar",
             "hashes": {
-                "sha1": "a10a8fc7f305fc0aa33331ea5c46fdae7fbcd76e",
-                "sha512": "c8bc2cfc9e7db27c76422c993a3e2babaa92dadce6697b5fb1464f33944de47189fdd3cc16025d6ab8383e923f104b77f6bd34c0bf9e4108c960950c5bb4afa0"
+                "sha1": "1ee98842bf01b40960872e82aae1c4a6e9245afc",
+                "sha512": "67c378d49262b8a003042b8a308d9ce48317a14ca6631cc4cf12d7177b26d2b54d16436757c6853ce018fb1c9ecda351e50a1baa8b1cbe8fe6129692f88e6c98"
             },
-            "path": "mods/stonezone-1.21-2.11.7-neoforge.jar"
+            "env": {
+                "server": "required",
+                "client": "required"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/uYwn8IP5/versions/fdvPlAxm/stonezone-1.21-2.11.12-neoforge.jar"
+            ],
+            "fileSize": 817599
         },
         {
             "downloads": [
