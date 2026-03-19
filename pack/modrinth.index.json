@@ -3691,7 +3691,8 @@
             "hashes": {
                 "sha1": "9942bd40a05c391386c0ff057d78d69a9fc8df15",
                 "sha512": "4fae25e1ad32676e243374a842aba3ae713929b4dd20680859d3032e75fd7cf773726d2f5ae8a5d01c3734178e99e17fea60283aa0ea30cf3097b80297aca953"
-            }
+            },
+            "path": "mods/Prometheus-Exporter-1.21.1-neoforge-1.2.1.jar"
         },
         {
             "path": "mods/ExtendedCrafting-1.21.1-7.0.8.jar",
