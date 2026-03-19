@@ -68,4 +68,11 @@ ServerEvents.recipes(event => {
             "yield_scale": 1.0
         }
     )
+
+    event.remove({ id: 'advanced_ae:quantum_upgrade_base'})
+    event.remove({ output: 'advanced_ae:quantum_helmet' })
+    event.remove({ output: 'advanced_ae:quantum_chestplate' })
+    event.remove({ output: 'advanced_ae:quantum_leggings' })
+    event.remove({ output: 'advanced_ae:quantum_boots' })
+
 })

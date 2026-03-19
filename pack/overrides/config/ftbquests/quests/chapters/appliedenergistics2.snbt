@@ -111,8 +111,8 @@
 				item: { count: 1, id: "ae2:energy_acceptor" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: 7.0d
+			x: 17.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0072881912DF686A"]
@@ -181,8 +181,8 @@
 				item: { count: 1, id: "ae2:crystal_resonance_generator" }
 				type: "item"
 			}]
-			x: 10.5d
-			y: 8.0d
+			x: 17.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["14A1B15C9584FACA"]
@@ -272,7 +272,7 @@
 				item: { count: 1, id: "ae2:terminal" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 10.5d
 			y: 7.0d
 		}
 		{
@@ -338,7 +338,7 @@
 				item: { count: 1, id: "ae2:crafting_terminal" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 10.5d
 			y: 8.0d
 		}
 		{
@@ -379,8 +379,8 @@
 				item: { count: 1, id: "ae2:energy_cell" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: 8.0d
+			x: 14.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -395,8 +395,8 @@
 				item: { count: 1, id: "ae2:controller" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: 8.0d
+			x: 17.5d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -410,7 +410,7 @@
 				item: { count: 1, id: "ae2:drive" }
 				type: "item"
 			}]
-			x: 11.5d
+			x: 12.5d
 			y: 8.0d
 		}
 		{
@@ -426,7 +426,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: 7.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -440,8 +440,8 @@
 				item: { count: 1, id: "ae2:growth_accelerator" }
 				type: "item"
 			}]
-			x: 10.5d
-			y: 7.0d
+			x: 13.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["3BA67DB96DCC6CD6"]
@@ -476,8 +476,8 @@
 				item: { count: 1, id: "ae2netanalyser:network_analyser" }
 				type: "item"
 			}]
-			x: 11.5d
-			y: 7.0d
+			x: 9.5d
+			y: 13.0d
 		}
 		{
 			dependencies: [
@@ -671,7 +671,7 @@
 				item: { count: 1, id: "ae2:wireless_booster" }
 				type: "item"
 			}]
-			x: -7.0d
+			x: -8.0d
 			y: 7.0d
 		}
 		{
@@ -683,11 +683,14 @@
 				item: { count: 1, id: "ae2:blank_pattern" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -7.0d
 			y: 7.0d
 		}
 		{
-			dependencies: ["1FE36F98AAA3DEB8"]
+			dependencies: [
+				"1FE36F98AAA3DEB8"
+				"0B490D47708A16A4"
+			]
 			id: "05508097E9CE808D"
 			tasks: [{
 				id: "4A8C2D1A87BCFD98"
@@ -695,7 +698,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["05508097E9CE808D"]
@@ -706,7 +709,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["262BB55197D34963"]
@@ -738,7 +741,7 @@
 				item: { count: 1, id: "aeinfinitybooster:infinity_card" }
 				type: "item"
 			}]
-			x: -7.0d
+			x: -8.0d
 			y: 8.0d
 		}
 		{
@@ -749,7 +752,7 @@
 				item: { count: 1, id: "aeinfinitybooster:dimension_card" }
 				type: "item"
 			}]
-			x: -7.0d
+			x: -8.0d
 			y: 9.0d
 		}
 		{
@@ -1188,8 +1191,8 @@
 				item: { count: 1, id: "megacells:bulk_cell_component" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 13.0d
+			x: -2.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["14A1B15C9584FACA"]
@@ -1203,14 +1206,16 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["53423382D2C44EB6"]
+			hide_dependency_lines: true
 			id: "5426441DACE04D80"
 			tasks: [{
 				id: "53891816B98440DA"
 				item: { count: 1, id: "advanced_ae:quantum_alloy" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: -9.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -1225,6 +1230,1180 @@
 			}]
 			x: 5.0d
 			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6EE42BFAF055B91C"
+				"4167EF0B01A329E6"
+			]
+			hide_dependency_lines: true
+			id: "53423382D2C44EB6"
+			tasks: [{
+				id: "7679DD55F1C38F96"
+				item: { count: 1, id: "advanced_ae:shattered_singularity" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5426441DACE04D80"]
+			hide_dependency_lines: true
+			id: "5F2C8BEDAFD690CE"
+			tasks: [{
+				id: "729B4666E6C6CFA2"
+				item: { count: 1, id: "advanced_ae:quantum_alloy_plate" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"465DBBE1A05C9D63"
+				"42C61B5B1F2CDD97"
+			]
+			hide_dependency_lines: true
+			id: "092933B49132983E"
+			tasks: [{
+				id: "45CE6AD99195FDF9"
+				item: { count: 1, id: "ae2:formation_plane" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"3BA67DB96DCC6CD6"
+				"42C61B5B1F2CDD97"
+			]
+			hide_dependency_lines: true
+			id: "08190B7EE2C0A1DC"
+			tasks: [{
+				id: "43C816CAF41A907B"
+				item: { count: 1, id: "ae2:annihilation_plane" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"4AFB467BFBE6F99A"
+				"7C60264BFAFA586F"
+			]
+			hide_dependency_lines: true
+			id: "429B00B5A6775722"
+			tasks: [{
+				id: "377C99B78C0365FD"
+				item: { count: 1, id: "ae2:dense_energy_cell" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"429B00B5A6775722"
+				"6DB11D46E2E51314"
+			]
+			hide_dependency_lines: true
+			id: "525E3105119554FB"
+			tasks: [{
+				id: "3CB7B87162E975EC"
+				item: { count: 1, id: "megacells:mega_energy_cell" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7C60264BFAFA586F"]
+			hide_dependency_lines: true
+			id: "0B490D47708A16A4"
+			tasks: [{
+				id: "385F91C637FB489F"
+				item: { count: 1, id: "ae2:cell_workbench" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5BE848DD6238EA7F"]
+			hide_dependency_lines: true
+			id: "5092A0E4B0531788"
+			tasks: [{
+				id: "329C0FDE3D5BF39A"
+				item: { count: 1, id: "ae2:pattern_encoding_terminal" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"43427F120B92156A"
+				"2759136164E84B29"
+				"31E28D65ECD46042"
+			]
+			hide_dependency_lines: true
+			id: "3B9978D293A6C2D6"
+			tasks: [{
+				id: "7731EBE2ADEFB6D2"
+				item: { count: 1, id: "ae2:pattern_access_terminal" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3B9978D293A6C2D6"]
+			hide_dependency_lines: true
+			id: "37F22856D014B5E3"
+			tasks: [{
+				id: "0B93C36519492A22"
+				item: { count: 1, id: "extendedae:ex_pattern_access_part" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["03137F068093D98E"]
+			hide_dependency_lines: true
+			id: "6A55E9CECD2C95C3"
+			tasks: [{
+				id: "17DBDA76D439B577"
+				item: { count: 1, id: "extendedae:tag_storage_bus" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["03137F068093D98E"]
+			hide_dependency_lines: true
+			id: "0BC831EB4ED113F0"
+			tasks: [{
+				id: "2EE213E1FBC0BA4F"
+				item: { count: 1, id: "extendedae:mod_storage_bus" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["03137F068093D98E"]
+			hide_dependency_lines: true
+			id: "00C90C22C334DC0A"
+			tasks: [{
+				id: "347C6E982D037AB6"
+				item: { count: 1, id: "extendedae:precise_storage_bus" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["04E207663EBFEE2D"]
+			id: "668A1A20CF69E37F"
+			tasks: [{
+				id: "07E4A4EDC5509CEE"
+				item: { count: 1, id: "extendedae:ex_export_bus_part" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["311DB1F31F1C87B0"]
+			id: "0C494DC1E7EF40DB"
+			tasks: [{
+				id: "4E571874A02B03EB"
+				item: { count: 1, id: "extendedae:ex_import_bus_part" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"31E28D65ECD46042"
+				"42C61B5B1F2CDD97"
+			]
+			hide_dependency_lines: true
+			id: "438F0D11BF969A33"
+			tasks: [{
+				id: "70B8A4512E3C119E"
+				item: { count: 1, id: "ae2:me_p2p_tunnel" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6857AEC899D27F26"]
+			id: "22C1751D4CA61979"
+			tasks: [{
+				id: "03273EE904930F52"
+				item: { count: 1, id: "ae2wtlib:quantum_bridge_card" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"4AFB467BFBE6F99A"
+				"09312EC2E520D9AC"
+				"140A1BB3A04D45D3"
+				"31E28D65ECD46042"
+				"7999AEF5C01FE99A"
+				"14A1B15C9584FACA"
+			]
+			hide_dependency_lines: true
+			id: "4F9E05EE5CE5693B"
+			tasks: [
+				{
+					count: 8L
+					id: "78BF62A1F3CA7FC0"
+					item: { count: 1, id: "ae2:quantum_ring" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5AEFB669408A9119"
+					item: { count: 1, id: "ae2:quantum_link" }
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"43427F120B92156A"
+				"5025DEC9CD39D5B8"
+				"3CAF05AC2F3B644A"
+			]
+			hide_dependency_lines: true
+			id: "77CE4C7B5C157A42"
+			tasks: [{
+				id: "024F5781C886B0CD"
+				item: { count: 1, id: "extendedae:ex_pattern_provider" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"43427F120B92156A"
+				"6DB11D46E2E51314"
+			]
+			hide_dependency_lines: true
+			id: "6094C71F2E3D813C"
+			tasks: [{
+				id: "65143D67B16BBD6A"
+				item: { count: 1, id: "megacells:mega_pattern_provider" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["43427F120B92156A"]
+			hide_dependency_lines: true
+			id: "6F24608DD2E147B8"
+			tasks: [{
+				id: "05364A28AAC9D0BB"
+				item: { count: 1, id: "advanced_ae:small_adv_pattern_provider" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["77CE4C7B5C157A42"]
+			hide_dependency_lines: true
+			id: "030955CD553B5930"
+			tasks: [{
+				id: "7CCA32CDDDC8C80F"
+				item: { count: 1, id: "advanced_ae:adv_pattern_provider" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["04E207663EBFEE2D"]
+			id: "63AC265BAC7463A0"
+			tasks: [{
+				id: "32C1E3F1C24AA72A"
+				item: { count: 1, id: "extendedae:tag_export_bus" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["04E207663EBFEE2D"]
+			id: "58C579FF2D64373A"
+			tasks: [{
+				id: "3BEBE78C977DEFD2"
+				item: { count: 1, id: "extendedae:mod_export_bus" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["04E207663EBFEE2D"]
+			id: "3C746BC2DE822CD7"
+			tasks: [{
+				id: "4098EFF106E32569"
+				item: { count: 1, id: "extendedae:precise_export_bus" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["04E207663EBFEE2D"]
+			id: "04964A0AE4B1755D"
+			tasks: [{
+				id: "256DDDF1EF5372B1"
+				item: { count: 1, id: "extendedae:threshold_export_bus" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["04E207663EBFEE2D"]
+			id: "495CE72D9BFE045C"
+			tasks: [{
+				id: "296FE595B35C562E"
+				item: { count: 1, id: "advanced_ae:stock_export_bus_part" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"04E207663EBFEE2D"
+				"311DB1F31F1C87B0"
+			]
+			hide_dependency_lines: true
+			id: "0A116E49CF903F53"
+			tasks: [{
+				id: "16DC0DAB3AD40CE7"
+				item: { count: 1, id: "advanced_ae:import_export_bus_part" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"04E207663EBFEE2D"
+				"311DB1F31F1C87B0"
+				"0A3B97DA6A25431F"
+				"400EB6A3C4751EF3"
+			]
+			hide_dependency_lines: true
+			id: "04D5542DD8D1131D"
+			tasks: [{
+				id: "53D272588A940EC4"
+				item: { count: 1, id: "advanced_ae:advanced_io_bus_part" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4720CB65CE17F8A3"]
+			id: "3A60F78C30F52885"
+			tasks: [{
+				id: "5A99F0E1A4069D2A"
+				item: { count: 1, id: "extendedae:ex_interface" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4720CB65CE17F8A3"]
+			id: "64F5B98820B761F8"
+			tasks: [{
+				id: "559F8C0B2CF1CA79"
+				item: { count: 1, id: "extendedae:oversize_interface" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4720CB65CE17F8A3"]
+			id: "1AE557EBCB7E387A"
+			tasks: [{
+				id: "280DE6F0D9818EB7"
+				item: { count: 1, id: "megacells:mega_interface" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"7008F793AA9FC0CF"
+				"262BB55197D34963"
+				"14A1B15C9584FACA"
+				"50DC3FE6AAD2A409"
+			]
+			hide_dependency_lines: true
+			id: "3843A04402352FBD"
+			tasks: [{
+				id: "58275728B93D65FD"
+				item: { count: 1, id: "extendedae:void_cell" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7C60264BFAFA586F"]
+			hide_dependency_lines: true
+			id: "51BD4FEA4A92C595"
+			tasks: [{
+				id: "0A2F4768808EF5E9"
+				item: { count: 1, id: "ae2:level_emitter" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2759136164E84B29"
+				"51BD4FEA4A92C595"
+			]
+			hide_dependency_lines: true
+			id: "11F6D12782DD053D"
+			tasks: [{
+				id: "6BE0BB17F2ABEB7E"
+				item: { count: 1, id: "ae2:storage_monitor" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"11F6D12782DD053D"
+				"465DBBE1A05C9D63"
+				"3BA67DB96DCC6CD6"
+			]
+			hide_dependency_lines: true
+			id: "5D6AB38D41A1A5B2"
+			tasks: [{
+				id: "5261C7927100B4C0"
+				item: { count: 1, id: "ae2:conversion_monitor" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["11F6D12782DD053D"]
+			hide_dependency_lines: true
+			id: "7C520BEA3C4372DE"
+			tasks: [{
+				id: "2050CBB762136E4F"
+				item: { count: 1, id: "advanced_ae:throughput_monitor" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"0ADC7C8E444DF593"
+				"14A1B15C9584FACA"
+			]
+			hide_dependency_lines: true
+			id: "7C4E2D12A9F3F4BC"
+			tasks: [{
+				id: "293570F0425F7111"
+				item: { count: 1, id: "extendedae:ingredient_buffer" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"092933B49132983E"
+				"668A1A20CF69E37F"
+			]
+			hide_dependency_lines: true
+			id: "2D8AF4A385A8739C"
+			tasks: [{
+				id: "69C6EAE6A8051FFF"
+				item: { count: 1, id: "extendedae:active_formation_plane" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"08190B7EE2C0A1DC"
+				"311DB1F31F1C87B0"
+			]
+			hide_dependency_lines: true
+			id: "6B4FDEF476F8222B"
+			tasks: [{
+				id: "246C5D2CA8DBE081"
+				item: { count: 1, id: "extendedae:smart_annihilation_plane" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["51BD4FEA4A92C595"]
+			id: "54306E196C4EA3A4"
+			tasks: [{
+				id: "00C4CB815E342682"
+				item: { count: 1, id: "extendedae:threshold_level_emitter" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["636F0C24A1EDA38E"]
+			id: "51F2D9D11BAB059E"
+			tasks: [{
+				id: "39E455D91DABBAA3"
+				item: { count: 1, id: "extendedae:ex_drive" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"636F0C24A1EDA38E"
+				"140A1BB3A04D45D3"
+			]
+			hide_dependency_lines: true
+			id: "00441094B1B14BCC"
+			tasks: [{
+				id: "2628E0177255C198"
+				item: { count: 1, id: "ae2:io_port" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["00441094B1B14BCC"]
+			id: "2A08F0BC18258CDD"
+			tasks: [{
+				id: "570CC02704694C58"
+				item: { count: 1, id: "extendedae:ex_io_port" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"67E961A81909B4DD"
+				"6DB11D46E2E51314"
+				"3BDD217D6A771BB9"
+				"140A1BB3A04D45D3"
+			]
+			hide_dependency_lines: true
+			id: "5246459912F8E128"
+			tasks: [{
+				id: "5EE97F8D09B1725D"
+				item: { count: 1, id: "megacells:mega_crafting_unit" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["00441094B1B14BCC"]
+			hide_dependency_lines: true
+			id: "5E22EF5E16BA5C53"
+			tasks: [{
+				id: "0EFD38286611CE05"
+				item: { count: 1, id: "ae2:spatial_io_port" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1FDCD5B2ED9DBEA4"]
+			hide_dependency_lines: true
+			id: "41DE3C685D957536"
+			tasks: [{
+				id: "65DE8397A992BD57"
+				item: { count: 1, id: "megacells:cell_dock" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"60E363278037EDA8"
+				"6DB11D46E2E51314"
+				"140A1BB3A04D45D3"
+				"31E28D65ECD46042"
+			]
+			hide_dependency_lines: true
+			id: "309FDC24229CF83C"
+			tasks: [{
+				id: "427D3B89AB53A72B"
+				item: { count: 1, id: "megacells:decompression_module" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7C60264BFAFA586F"]
+			hide_dependency_lines: true
+			id: "199D3D772E86C5DC"
+			tasks: [{
+				id: "69F6E882B7A13CB0"
+				item: { count: 1, id: "ae2:memory_card" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1FDCD5B2ED9DBEA4"]
+			hide_dependency_lines: true
+			id: "61DCE090418F5585"
+			tasks: [{
+				id: "2F464A5BA4589FAB"
+				item: { count: 1, id: "ae2:toggle_bus" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["28F793D79F9A1CF3"]
+			id: "7151BB3601307C7C"
+			tasks: [{
+				id: "2900B48F2A1CFD8F"
+				item: { count: 1, id: "extendedae:machine_frame" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7151BB3601307C7C"]
+			hide_dependency_lines: true
+			id: "08F87B17ED442C3D"
+			tasks: [{
+				id: "4A6FDA4958DAAE69"
+				item: { count: 1, id: "extendedae:crystal_assembler" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["08F87B17ED442C3D"]
+			hide_dependency_lines: true
+			id: "36770F9A12DFAED1"
+			tasks: [{
+				id: "7DACD8DA93CA7C91"
+				item: { count: 1, id: "extendedae:circuit_cutter" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7151BB3601307C7C"]
+			hide_dependency_lines: true
+			id: "5D5E7ED074F6A4EA"
+			tasks: [{
+				id: "59514F329E32E2D1"
+				item: { count: 1, id: "extendedae:assembler_matrix_frame" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"262BB55197D34963"
+				"25772091A94BC92D"
+				"14A1B15C9584FACA"
+			]
+			hide_dependency_lines: true
+			id: "14038861DA14C9AD"
+			tasks: [{
+				id: "426DCBD87C07ED06"
+				item: { count: 1, id: "advanced_ae:reaction_chamber" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"28F793D79F9A1CF3"
+				"42C61B5B1F2CDD97"
+			]
+			hide_dependency_lines: true
+			id: "40306A40DF28BB25"
+			tasks: [
+				{
+					id: "317EF061BA8A7F48"
+					item: { count: 1, id: "extendedae:assembler_matrix_wall" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1C5FBB26392FFD38"
+					item: { count: 1, id: "extendedae:assembler_matrix_glass" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"40306A40DF28BB25"
+				"08BD81371C2E5126"
+				"08F87B17ED442C3D"
+				"5025DEC9CD39D5B8"
+				"77CE4C7B5C157A42"
+			]
+			hide_dependency_lines: true
+			id: "4FDB8EE7010DB78C"
+			tasks: [{
+				id: "7ECBED285830D736"
+				item: { count: 1, id: "extendedae:assembler_matrix_pattern" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"40306A40DF28BB25"
+				"08BD81371C2E5126"
+				"08F87B17ED442C3D"
+				"5025DEC9CD39D5B8"
+				"0EEF492BDC094393"
+			]
+			hide_dependency_lines: true
+			id: "3EDBC9340AE047E3"
+			tasks: [{
+				id: "707880C6D89F09B8"
+				item: { count: 1, id: "extendedae:assembler_matrix_crafter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"40306A40DF28BB25"
+				"08BD81371C2E5126"
+				"08F87B17ED442C3D"
+				"5025DEC9CD39D5B8"
+				"400EB6A3C4751EF3"
+			]
+			hide_dependency_lines: true
+			id: "4FFAEB843D97D4E4"
+			tasks: [{
+				id: "1463B529EF898C11"
+				item: { count: 1, id: "extendedae:assembler_matrix_speed" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"465DBBE1A05C9D63"
+				"3BA67DB96DCC6CD6"
+				"14A1B15C9584FACA"
+			]
+			hide_dependency_lines: true
+			id: "46AF21F7B9F36C4E"
+			tasks: [{
+				id: "0B5B45ED4CC1FEC0"
+				item: { count: 1, id: "ae2:molecular_assembler" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"46AF21F7B9F36C4E"
+				"31E28D65ECD46042"
+				"5025DEC9CD39D5B8"
+				"400EB6A3C4751EF3"
+				"08F87B17ED442C3D"
+			]
+			hide_dependency_lines: true
+			id: "0EEF492BDC094393"
+			tasks: [{
+				id: "4591F00592364BC2"
+				item: { count: 1, id: "extendedae:ex_molecular_assembler" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"08F87B17ED442C3D"
+				"7999AEF5C01FE99A"
+				"09312EC2E520D9AC"
+				"7D47B1481FA69300"
+			]
+			hide_dependency_lines: true
+			id: "4F75A9D7EF25AFE0"
+			tasks: [{
+				id: "5EA767253B3710E8"
+				item: { count: 1, id: "extendedae:wireless_connect" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"4F75A9D7EF25AFE0"
+				"5025DEC9CD39D5B8"
+			]
+			hide_dependency_lines: true
+			id: "10EE3B74B446B5F0"
+			tasks: [{
+				id: "0B845AFE040F8E19"
+				item: { count: 1, id: "extendedae:wireless_hub" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1366BD7B703F7473"]
+			id: "76EB20328A2FA4EB"
+			tasks: [{
+				id: "786B7A06A463A01B"
+				item: { count: 1, id: "rechiseledae:chiseling_pattern_encoder" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"429B00B5A6775722"
+				"3EF811A49DFC6B0B"
+				"7999AEF5C01FE99A"
+			]
+			hide_dependency_lines: true
+			id: "177C4180D0534C9E"
+			tasks: [{
+				id: "3A9FF74CD65CF748"
+				item: { count: 1, id: "ae2:wireless_terminal" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"7999AEF5C01FE99A"
+				"1FDCD5B2ED9DBEA4"
+				"7C60264BFAFA586F"
+			]
+			hide_dependency_lines: true
+			id: "140AA6D7E96E84A8"
+			tasks: [{
+				id: "1344739CA868E171"
+				item: { count: 1, id: "ae2:wireless_access_point" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"31B1452107889407"
+				"08F87B17ED442C3D"
+				"5025DEC9CD39D5B8"
+				"3CAF05AC2F3B644A"
+			]
+			hide_dependency_lines: true
+			id: "36CA40F9ECF07616"
+			tasks: [{
+				id: "1E0D2766378D4F55"
+				item: { count: 1, id: "extendedae:ex_charger" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5BE7328B0ACA26EA"
+				"08F87B17ED442C3D"
+				"5025DEC9CD39D5B8"
+				"3CAF05AC2F3B644A"
+			]
+			hide_dependency_lines: true
+			id: "3E5149C412A574D1"
+			tasks: [{
+				id: "3C8CF40B97E03CE3"
+				item: { count: 1, id: "extendedae:ex_inscriber" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5BE848DD6238EA7F"
+				"177C4180D0534C9E"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "1E33FFA70F951109"
+			tasks: [{
+				id: "77FD4B2EBC0AA833"
+				item: { count: 1, id: "ae2:wireless_crafting_terminal" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"67E961A81909B4DD"
+				"6EE42BFAF055B91C"
+				"5025DEC9CD39D5B8"
+			]
+			hide_dependency_lines: true
+			id: "69186DCD846023F2"
+			tasks: [{
+				id: "1DB137CE8CABD6F4"
+				item: { count: 1, id: "advanced_ae:quantum_unit" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"53423382D2C44EB6"
+				"69186DCD846023F2"
+			]
+			hide_dependency_lines: true
+			id: "122876BF9BB551E3"
+			tasks: [{
+				id: "35A90C4913B85750"
+				item: { count: 1, id: "advanced_ae:quantum_accelerator" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["69186DCD846023F2"]
+			hide_dependency_lines: true
+			id: "7F99DD0723457B2F"
+			tasks: [{
+				id: "469D0DC9A2A86466"
+				item: { count: 1, id: "advanced_ae:quantum_storage_128" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"2B23AFAC1BF36737"
+				"343A22FAC946675A"
+				"0A3B97DA6A25431F"
+				"4963F91983176A54"
+			]
+			hide_dependency_lines: true
+			id: "57B75BB6D685DEFA"
+			tasks: [{
+				id: "2E176B772ED51FA8"
+				item: { count: 1, id: "advanced_ae:quantum_storage_component" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7F99DD0723457B2F"]
+			hide_dependency_lines: true
+			id: "2A75EB10AB285AF7"
+			tasks: [{
+				id: "64339063B3EB49E1"
+				item: { count: 1, id: "advanced_ae:quantum_storage_256" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"08F87B17ED442C3D"
+				"110CAAB6565D0953"
+			]
+			hide_dependency_lines: true
+			id: "221802FBCCD1A4E7"
+			tasks: [{
+				id: "3CDA5552E59FDB79"
+				item: { count: 1, id: "advanced_ae:quantum_multi_threader" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"2A75EB10AB285AF7"
+				"122876BF9BB551E3"
+			]
+			hide_dependency_lines: true
+			id: "110CAAB6565D0953"
+			tasks: [{
+				id: "1B221F266081C748"
+				item: { count: 1, id: "advanced_ae:quantum_core" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"08F87B17ED442C3D"
+				"465DBBE1A05C9D63"
+				"3BA67DB96DCC6CD6"
+				"7C4E2D12A9F3F4BC"
+			]
+			hide_dependency_lines: true
+			id: "0ADE7BD7B107C692"
+			tasks: [{
+				id: "4E41F20CD36611F6"
+				item: { count: 1, id: "extendedae:caner" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["69186DCD846023F2"]
+			hide_dependency_lines: true
+			id: "678A2B45D78BC949"
+			tasks: [{
+				id: "53FED30EC749975D"
+				item: { count: 1, id: "advanced_ae:quantum_structure" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["110CAAB6565D0953"]
+			hide_dependency_lines: true
+			id: "006D5213D3DD22A4"
+			tasks: [{
+				id: "5626969CC83507C5"
+				item: { count: 1, id: "advanced_ae:data_entangler" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["5E22EF5E16BA5C53"]
+			hide_dependency_lines: true
+			id: "5E8B480A65E287ED"
+			tasks: [{
+				id: "4B9D8F22B24702AD"
+				item: { count: 1, id: "ae2:spatial_pylon" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"0C6DD7D0E8E8E434"
+				"31E28D65ECD46042"
+			]
+			hide_dependency_lines: true
+			id: "338B17507279CE31"
+			tasks: [{
+				id: "79E001A6A9241755"
+				item: { components: { "extendedae:modifier_config_settings": { data: 1L, mode: "mul" } }, count: 1, id: "extendedae:config_modifier" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0C6DD7D0E8E8E434"
+				"140A1BB3A04D45D3"
+			]
+			hide_dependency_lines: true
+			id: "2EF4776488D5FC22"
+			tasks: [{
+				id: "66F158BBC47609F8"
+				item: { count: 1, id: "extendedae:pattern_modifier" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"31E28D65ECD46042"
+				"044F1258896FBBB3"
+				"0C6DD7D0E8E8E434"
+			]
+			hide_dependency_lines: true
+			id: "564D0354B592163F"
+			tasks: [{
+				id: "7AF7EE7C39AF9A82"
+				item: { count: 1, id: "advanced_ae:adv_pattern_encoder" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 10.0d
 		}
 	]
 }
