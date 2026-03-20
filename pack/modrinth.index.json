@@ -2930,21 +2930,6 @@
             "path": "mods/zume-1.2.1.jar"
         },
         {
-            "path": "mods/iris-flywheel-compat-NeoForge-2.1.2.jar",
-            "hashes": {
-                "sha512": "216f78878c06f2bd329cfefe9b3f7540a08422e01dd9022e369a8f32678ffca291f846e2e5379b42ebff9193300100e03771b8bf69f4fdb49de0184aa607c6b2",
-                "sha1": "c7528182a380494a98d1b6aacabb52ae771dd4a6"
-            },
-            "env": {
-                "client": "required",
-                "server": "unsupported"
-            },
-            "downloads": [
-                "https://cdn.modrinth.com/data/ndHYMY2K/versions/KZZ5gJA4/iris-flywheel-compat-NeoForge-2.1.2.jar"
-            ],
-            "fileSize": 893987
-        },
-        {
             "downloads": [
                 "https://www.curseforge.com/api/v1/mods/961856/files/7403658/download"
             ],
