@@ -77,3 +77,10 @@ ServerEvents.recipes(event => {
         }
     )
 })
+ServerEvents.tags('item', event => {
+        Ingredient.of('#minecraft:planks').itemIds.forEach(plank =>{
+        if(!plank.match(/^minecraft:.+$/)){
+            event.remove('minecraft:planks',plank)
+        }
+    })
+})

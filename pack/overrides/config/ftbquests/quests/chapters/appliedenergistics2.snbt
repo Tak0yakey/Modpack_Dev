@@ -2190,10 +2190,10 @@
 		}
 		{
 			dependencies: [
+				"7999AEF5C01FE99A"
 				"5BE848DD6238EA7F"
-				"177C4180D0534C9E"
+				"429B00B5A6775722"
 			]
-			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "1E33FFA70F951109"
 			tasks: [{
@@ -2415,6 +2415,56 @@
 			}]
 			x: -4.0d
 			y: 9.0d
+		}
+		{
+			dependencies: [
+				"429B00B5A6775722"
+				"7999AEF5C01FE99A"
+				"5092A0E4B0531788"
+			]
+			hide_dependency_lines: true
+			id: "153C76026C074AF5"
+			tasks: [{
+				id: "033D27313BC5C96C"
+				item: { count: 1, id: "ae2wtlib:wireless_pattern_encoding_terminal" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"429B00B5A6775722"
+				"7999AEF5C01FE99A"
+				"3B9978D293A6C2D6"
+			]
+			hide_dependency_lines: true
+			id: "6FC9DFEDF31B8A7F"
+			tasks: [{
+				id: "60C66BCB8C30EAF4"
+				item: { count: 1, id: "ae2wtlib:wireless_pattern_access_terminal" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"6FC9DFEDF31B8A7F"
+				"1E33FFA70F951109"
+				"153C76026C074AF5"
+				"6FC9DFEDF31B8A7F"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "7D8351979BDCDD78"
+			tasks: [{
+				id: "6D94E1ED5B8F4329"
+				item: { count: 1, id: "ae2wtlib:wireless_universal_terminal" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 11.0d
 		}
 	]
 }

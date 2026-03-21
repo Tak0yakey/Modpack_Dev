@@ -83,9 +83,9 @@
 			id: "16DC79D4D9EA3DBB"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "30133AD8E2B4F720"
+				id: "7574F42075F0E157"
 				table_id: 8858029184094932461L
-				type: "all_table"
+				type: "random"
 			}]
 			tasks: [{
 				id: "11181945AC8649E6"
