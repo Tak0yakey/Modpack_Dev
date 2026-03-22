@@ -1,0 +1,62 @@
+[
+  {
+    "id": "9c3fc840-61ed-4c13-8573-6b051e5c44de",
+    "name": "Alpha",
+    "entries": [
+      {
+        "key": "key.constructionstick.undo",
+        "title": "元に戻す"
+      },
+      {
+        "key": "key.buildinggadgets2.undo",
+        "title": "元に戻す"
+      },
+      {
+        "key": "key.parcool.Enable",
+        "title": "ParCoolの有効化"
+      },
+      {
+        "key": "key.meplacementtool.undo",
+        "title": "Undo Modifier"
+      },
+      {
+        "key": "key.ae2.ae2wtlib_magnet",
+        "title": "マグネットカード切替"
+      },
+      {
+        "key": "key.ae2.ae2wtlib_restock",
+        "title": "補充切替"
+      },
+      {
+        "key": "justdirethings.key.toolUI",
+        "title": "ツール設定UIを開く"
+      }
+    ]
+  },
+  {
+    "id": "defcebc7-7f3c-41c0-bae9-68bceb19230f",
+    "name": "Beta",
+    "entries": [
+      {
+        "key": "key.forgeshot.screenshot_gui",
+        "title": "Forgeshot Settings"
+      },
+      {
+        "key": "iris.keybind.shaderPackSelection",
+        "title": "シェーダーパック選択画面"
+      },
+      {
+        "key": "key.modernui.openCenter",
+        "title": "Open Action Center"
+      },
+      {
+        "key": "key.parcool.openSetting",
+        "title": "設定を開く"
+      },
+      {
+        "key": "gui.xaero_pac_key_open_menu",
+        "title": "Open Parties and Claims Menu"
+      }
+    ]
+  }
+]
