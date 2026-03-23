@@ -2,30 +2,17 @@ ServerEvents.tags('item',event =>{
     Ingredient.of(/botanypots:.*bricks.*botany_pot/).itemIds.forEach(pots => {
         event.add('botanypots:botany_pots',pots)
     });
-    Ingredient.of(/botanypotstiers:.*elite.*bricks.*botany_pot/).itemIds.forEach(pots => {
-        if(pots.includes('hopper')){
-            event.add('botanypotstiers:elite_hopper_botany_pots',pots)
-        }
-        else{
-            event.add('botanypotstiers:elite_botany_pots',pots)
-        }
-    });
-    Ingredient.of(/botanypotstiers:.*ultra.*bricks.*botany_pot/).itemIds.forEach(pots => {
-        if(pots.includes('hopper')){
-            event.add('botanypotstiers:ultra_hopper_botany_pots',pots)
-        }
-        else{
-            event.add('botanypotstiers:ultra_botany_pots',pots)
-        }
-    });
-    Ingredient.of(/botanypotstiers:.*mega.*bricks.*botany_pot/).itemIds.forEach(pots => {
-        if(pots.includes('hopper')){
-            event.add('botanypotstiers:mega_hopper_botany_pots',pots)
-        }
-        else{
-            event.add('botanypotstiers:mega_botany_pots',pots)
-        }
-    });
+    const tiers = ["elite","ultra","mega"]
+    tiers.forEach((tier)=>{
+    Ingredient.of(new RegExp(`botanypotstiers:.*${tier}.*bricks.*botany_pot`)).itemIds.forEach(pots => {
+            if(pots.includes('hopper')){
+                event.add(`botanypotstiers:${tier}_hopper_botany_pots`,pots)
+            }
+            else{
+                event.add(`botanypotstiers:${tier}_botany_pots`,pots)
+            }
+        });
+    })
 })
 
 
