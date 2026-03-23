@@ -3678,6 +3678,21 @@
                 "https://cdn.modrinth.com/data/5JMG1gql/versions/Pb2OHQ8E/ExtendedCrafting-1.21.1-7.0.8.jar"
             ],
             "fileSize": 670774
+        },
+        {
+            "path": "mods/oritechthings-0.0.41.jar",
+            "downloads": [
+                "https://cdn.modrinth.com/data/C7tBAibK/versions/s3BSNyZK/oritechthings-0.0.41.jar"
+            ],
+            "hashes": {
+                "sha1": "ad11df9a1e0b031e6f719432bea1ce9450c0a724",
+                "sha512": "89b7e81ad7ee6481e2aa1af8f3da939e2ddfdd9f5ffb8d5418777c5885f94b097a076d8f0fb276fb2961b03f95bf9b17639146714a3271f995d286f7eb2a1a32"
+            },
+            "env": {
+                "client": "required",
+                "server": "required"
+            },
+            "fileSize": 398219
         }
     ],
     "formatVersion": 1,
