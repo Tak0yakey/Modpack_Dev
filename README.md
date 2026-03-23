@@ -1,6 +1,6 @@
 # Modpack_Dev
 パソコンのスペックが足りない方へ:Distant Horizonsを抜いてください
-
+ 
 ### ==>>>[最新のModpackを入手](https://github.com/Tak0yakey/Modpack_Dev/releases/tag/latest)
 
 ### Install Latest Modpack to Server
