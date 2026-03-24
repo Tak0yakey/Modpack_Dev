@@ -5,6 +5,7 @@ ServerEvents.recipes(event => {
     }
 
     addBidirectional('create:limestone', 'chisel:limestone/raw')
+    addBidirectional('natures_spirit:white_chalk','regions_unexplored:chalk')
     addBidirectional('immersiveengineering:ingot_nickel', 'oritech:nickel_ingot')
     addBidirectional('immersiveengineering:ingot_electrum','oritech:electrum_ingot')
     addBidirectional('immersiveengineering:ingot_steel', 'oritech:steel_ingot')
