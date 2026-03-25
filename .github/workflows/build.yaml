@@ -39,9 +39,8 @@ jobs:
             cp ${variant}_modrinth.index.json modrinth.index.json
             zip -r "../$ZIP_NAME" . -x "*_modrinth.index.json"
             cd ..
-            FILES="$FILES $ZIP_NAME"
+            FILES="$FILES,$ZIP_NAME"
           done
-          ls -la
           echo "FILES=$FILES" >> $GITHUB_ENV
 
       - name: Create or update release
@@ -49,7 +48,7 @@ jobs:
         with:
           tag_name: ${{ env.TAG_NAME }}
           name: ${{ env.RELEASE_NAME }}
-          files: ${{ env.FILES }}
+          files: null_server_life_*_${{ env.TAG_NAME }}.mrpack
           prerelease: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
