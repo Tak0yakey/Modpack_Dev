@@ -41,6 +41,7 @@ jobs:
             cd ..
             FILES="$FILES $ZIP_NAME"
           done
+          ls -la
           echo "FILES=$FILES" >> $GITHUB_ENV
 
       - name: Create or update release
