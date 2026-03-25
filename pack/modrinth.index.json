@@ -3693,6 +3693,21 @@
                 "server": "required"
             },
             "fileSize": 398219
+        },
+        {
+            "path": "mods/botanypotsmystical-neoforge-1.21.1-21.1.11.jar",
+            "downloads": [
+                "https://cdn.modrinth.com/data/SaWFztxY/versions/AkDXnwyH/botanypotsmystical-neoforge-1.21.1-21.1.11.jar"
+            ],
+            "hashes": {
+                "sha1": "c9f09d5194b3aa36bc55eb6fd621f6527ef046fc",
+                "sha512": "6a9f4cb2c32d3e2577b5977d8c13f96efebf83bdab1d0d49bebb3ad97eac923cae8670ff972789f24bfc4dd5c429f2b99df13e4143c3dc1437a18582bc5de6fe"
+            },
+            "env": {
+                "client": "required",
+                "server": "required"
+            },
+            "fileSize": 89375
         }
     ],
     "formatVersion": 1,
