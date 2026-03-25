@@ -36,8 +36,9 @@ jobs:
           cd pack
           for variant in normal axiom; do
             ZIP_NAME="null_server_life_${variant}_${TAG_NAME}.mrpack"
+            ls -la
             cp ${variant}_modrinth.index.json modrinth.index.json
-            zip -r "../$ZIP_NAME" . -x ".*_modrinth.index.json"
+            zip -r "../$ZIP_NAME" . -x "*_modrinth.index.json"
             cd ..
             FILES="$FILES $ZIP_NAME"
           done
