@@ -13,8 +13,8 @@ axiomized_downloads= [copy(m) for m in downloads if m["env"].get("axiom") != "re
 normal_downloads = [copy(m) for m in downloads if m["env"].get("axiom") != "add"]
 flag_popper(axiomized_downloads)
 flag_popper(normal_downloads)
-(axiom_json := copy(downloads))["files"] = axiomized_downloads
-(normal_json :=copy(downloads))["files"] = normal_downloads 
+(axiom_json := copy(data))["files"] = axiomized_downloads
+(normal_json :=copy(data))["files"] = normal_downloads 
 with open("axiom_modrinth.index.json","w") as r:
     json.dump(axiom_json,r,indent=4)
 with open("normal_modrinth.index.json","w") as r:
