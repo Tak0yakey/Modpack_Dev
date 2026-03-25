@@ -6,3 +6,6 @@ ServerEvents.recipes(event => {
     event.stonecutting('chisel:metals_tin/thermal','minecraft:iron_block'),
     event.stonecutting('chisel:metals_uranium/thermal','minecraft:iron_block')
 })
+ServerEvents.tags('item', event => {
+    event.add('chisel:carving/diabase','minecraft:smooth_basalt')
+})
