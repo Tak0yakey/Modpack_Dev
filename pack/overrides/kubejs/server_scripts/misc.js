@@ -76,6 +76,26 @@ ServerEvents.recipes(event => {
             ]
         }
     )
+    event.shaped(
+        Item.of('minecraft:nether_star',10),
+        [
+            'AAA',
+            'BCB',
+            ' B '
+        ],
+        {
+            A: 'minecraft:wither_skeleton_skull',
+            B: 'minecraft:soul_sand',
+            C: 'extendedcrafting:nether_star_block'
+        }
+    )
+    event.shapeless(
+        Item.of('minecraft:dragon_breath',1),
+        [
+            'oritech:weed_killer',
+            'justdirethings:portal_fluid_catalyst'
+        ]
+    )
 })
 ServerEvents.tags('item', event => {
     Ingredient.of('#minecraft:planks').itemIds.forEach(plank =>{

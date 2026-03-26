@@ -1,11 +1,10 @@
-
-
 name: Build Modpack
 
 on:
   push:
     branches:
       - main
+      - dev
 
 permissions:
   contents: write
@@ -18,19 +17,38 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Set variables by branch
+        run: |
+          if [ "${GITHUB_REF_NAME}" = "main" ]; then
+            echo "TAG_NAME=latest" >> $GITHUB_ENV
+            echo "RELEASE_NAME=Latest build" >> $GITHUB_ENV
+          elif [ "${GITHUB_REF_NAME}" = "dev" ]; then
+            echo "TAG_NAME=dev" >> $GITHUB_ENV
+            echo "RELEASE_NAME=Dev build" >> $GITHUB_ENV
+          fi
+      - name: Setup Modrinth index
+        run: |
+          cd tool
+          python3 patchapplyer.py
       - name: Zip dist folder
         run: |
-          ZIP_NAME="latest.mrpack"
-          cd pack
-          zip -r "../$ZIP_NAME" .
-          echo "ZIP_NAME=$ZIP_NAME" >> $GITHUB_ENV
+          FILES=""
+          for variant in normal axiom; do
+            cd pack
+            ZIP_NAME="null_server_life_${variant}_${TAG_NAME}.mrpack"
+            cp ${variant}_modrinth.index.json modrinth.index.json
+            zip -r "../$ZIP_NAME" . -x "*_modrinth.index.json"
+            cd ..
+            FILES="$FILES,$ZIP_NAME"
+          done
+          echo "FILES=$FILES" >> $GITHUB_ENV
 
       - name: Create or update release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: latest
-          name: Latest build
-          files: ${{ env.ZIP_NAME }}
+          tag_name: ${{ env.TAG_NAME }}
+          name: ${{ env.RELEASE_NAME }}
+          files: null_server_life_*_${{ env.TAG_NAME }}.mrpack
           prerelease: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
