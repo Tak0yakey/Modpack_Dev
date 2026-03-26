@@ -23,7 +23,7 @@ jobs:
             echo "TAG_NAME=latest" >> $GITHUB_ENV
             echo "RELEASE_NAME=Latest build" >> $GITHUB_ENV
           elif [ "${GITHUB_REF_NAME}" = "dev" ]; then
-            echo "TAG_NAME=dev" >> $GITHUB_ENV
+            echo "TAG_NAME=latest_dev" >> $GITHUB_ENV
             echo "RELEASE_NAME=Dev build" >> $GITHUB_ENV
           fi
       - name: Setup Modrinth index
