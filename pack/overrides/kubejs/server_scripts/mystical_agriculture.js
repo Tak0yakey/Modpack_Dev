@@ -13,5 +13,17 @@ ServerEvents.recipes(event => {
       { item: 'immersiveengineering:dust_saltpeter' },      
       { item: 'mysticalagriculture:prudentium_essence' }
     ]
-  });
+  })
+  event.shaped(
+        Item.of('mysticalagriculture:soulstone',20),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: 'mysticalagriculture:stone_essence',
+            B: 'mysticalagriculture:soulium_essence'
+        }
+    )
 });
