@@ -3742,6 +3742,22 @@
                 "axiom": "add"
             },
             "fileSize": 4526785
+        },
+        {
+            "path": "mods/ftbbackups2-neoforge-1.21-1.0.28.jar",
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/5501/351/ftbbackups2-neoforge-1.21-1.0.28.jar"
+            ],
+            "hashes": {
+                "sha1": "878753a228d620c51b2f7a521867cab78fa259fc",
+                "sha512": "18d9411d9298da63018bcfcaebcf0bce7535d32fd0278652b5cc2aced625f5436d53ae3daac2bfccab1d9a9c2280b17d413daed5b1f32b3edb7868d603d65143"
+            },
+            "env": {
+                "client": "required",
+                "server": "required",
+                "axiom": "add"
+            },
+            "fileSize": 1936882
         }
     ],
     "formatVersion": 1,
