@@ -3754,8 +3754,7 @@
             },
             "env": {
                 "client": "required",
-                "server": "required",
-                "axiom": "add"
+                "server": "required"
             },
             "fileSize": 1936882
         }
