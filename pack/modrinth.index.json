@@ -3758,6 +3758,21 @@
                 "axiom": "add"
             },
             "fileSize": 1936882
+        },
+        {
+            "path": "mods/notemcschematicannon-1.1.0.jar",
+            "downloads": [
+                "https://github.com/Tak0yakey/Not-Create-EMC-Schematic-Cannon/releases/download/0/notemcschematicannon-1.1.0.jar"
+            ],
+            "hashes": {
+                "sha1": "b07d3887e08e56a1a7b9ccf396cfc62ecf2f1974",
+                "sha512": "93e4104f861c1f8fc17892414721f250c1e3093a38bdaf7e3351cb57d036280e575efa235123ba19e2810de256996c03f6561118db019874a0b3b4941b7e2d6b"
+            },
+            "env": {
+                "client": "required",
+                "server": "required"
+            },
+            "fileSize": 268284
         }
     ],
     "formatVersion": 1,
