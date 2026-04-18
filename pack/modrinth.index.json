@@ -3772,6 +3772,21 @@
                 "server": "required"
             },
             "fileSize": 268284
+        },
+        {
+            "path": "mods/MagnumTorch-v21.1.1-1.21.1-NeoForge.jar",
+            "downloads": [
+                "https://cdn.modrinth.com/data/jorDmSKv/versions/BZAhwo2r/MagnumTorch-v21.1.1-1.21.1-NeoForge.jar"
+            ],
+            "hashes": {
+                "sha1": "e507e0c5c0008d541da9f1f64842446c4ecb9d1f",
+                "sha512": "254fe8a667d170b30471b46c83905126c501527efe913cbc939d40a8a7b01a3c1ad7c56b634778ed1599ebf2a99b9443828bc787d8ada4561bd1f8c3c61eecdf"
+            },
+            "fileSize": 124523,
+            "env": {
+                "client": "required",
+                "server": "required"
+            }
         }
     ],
     "formatVersion": 1,
