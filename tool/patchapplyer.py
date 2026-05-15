@@ -12,16 +12,16 @@ downloads = data["files"]
 variant_flags = ("axiom", "minimum")
 
 
-def make_variant(name: str, removes: set[str], adds: set[str]):
+def make_variant(name: str, remove_flags: set[str], exclude_add_flags: set[str]):
     filtered = []
     for mod in downloads:
         env = mod.get("env", {})
-        if any(env.get(flag) == "remove" for flag in removes):
+        if any(env.get(flag) == "remove" for flag in remove_flags):
             continue
-        if any(env.get(flag) == "add" for flag in adds):
+        if any(env.get(flag) == "add" for flag in exclude_add_flags):
             continue
-        mod_copy = copy(mod)
-        mod_env = copy(mod_copy.get("env", {}))
+        mod_copy = dict(mod)
+        mod_env = dict(mod_copy.get("env", {}))
         for flag in variant_flags:
             mod_env.pop(flag, None)
         mod_copy["env"] = mod_env
@@ -34,6 +34,6 @@ def make_variant(name: str, removes: set[str], adds: set[str]):
         json.dump(variant_json, r, indent=4)
 
 
-make_variant("normal", removes=set(), adds={"axiom", "minimum"})
-make_variant("axiom", removes={"axiom"}, adds={"minimum"})
-make_variant("minimum", removes={"minimum"}, adds={"axiom"})
+make_variant("normal", remove_flags=set(), exclude_add_flags={"axiom", "minimum"})
+make_variant("axiom", remove_flags={"axiom"}, exclude_add_flags={"minimum"})
+make_variant("minimum", remove_flags={"minimum"}, exclude_add_flags={"axiom"})
