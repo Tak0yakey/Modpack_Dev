@@ -40,7 +40,8 @@
             ],
             "env": {
                 "client": "required",
-                "server": "unsupported"
+                "server": "unsupported",
+                "minimum": "remove"
             },
             "fileSize": 1279192,
             "hashes": {
@@ -70,7 +71,8 @@
             ],
             "env": {
                 "client": "required",
-                "server": "unsupported"
+                "server": "unsupported",
+                "minimum": "remove"
             },
             "fileSize": 481646,
             "hashes": {
@@ -85,7 +87,8 @@
             ],
             "env": {
                 "client": "required",
-                "server": "unsupported"
+                "server": "unsupported",
+                "minimum": "remove"
             },
             "fileSize": 13871,
             "hashes": {
@@ -100,7 +103,8 @@
             ],
             "env": {
                 "client": "required",
-                "server": "unsupported"
+                "server": "unsupported",
+                "minimum": "remove"
             },
             "fileSize": 60941,
             "hashes": {
@@ -310,7 +314,8 @@
             ],
             "env": {
                 "client": "required",
-                "server": "unsupported"
+                "server": "unsupported",
+                "minimum": "remove"
             },
             "fileSize": 2277807,
             "hashes": {
@@ -505,7 +510,8 @@
             ],
             "env": {
                 "client": "required",
-                "server": "unsupported"
+                "server": "unsupported",
+                "minimum": "remove"
             },
             "fileSize": 25030667,
             "hashes": {
@@ -625,7 +631,8 @@
             ],
             "env": {
                 "client": "required",
-                "server": "unsupported"
+                "server": "unsupported",
+                "minimum": "remove"
             },
             "fileSize": 589641,
             "hashes": {
@@ -955,7 +962,8 @@
             ],
             "env": {
                 "client": "required",
-                "server": "unsupported"
+                "server": "unsupported",
+                "minimum": "remove"
             },
             "fileSize": 690510,
             "hashes": {
@@ -1270,7 +1278,8 @@
             ],
             "env": {
                 "client": "required",
-                "server": "unsupported"
+                "server": "unsupported",
+                "minimum": "remove"
             },
             "fileSize": 31210,
             "hashes": {
@@ -1360,7 +1369,8 @@
             ],
             "env": {
                 "client": "required",
-                "server": "unsupported"
+                "server": "unsupported",
+                "minimum": "remove"
             },
             "fileSize": 1564767,
             "hashes": {
@@ -1465,7 +1475,8 @@
             ],
             "env": {
                 "client": "required",
-                "server": "unsupported"
+                "server": "unsupported",
+                "minimum": "remove"
             },
             "fileSize": 581395,
             "hashes": {
@@ -1495,7 +1506,8 @@
             ],
             "env": {
                 "client": "required",
-                "server": "unsupported"
+                "server": "unsupported",
+                "minimum": "remove"
             },
             "fileSize": 532912,
             "hashes": {
@@ -1691,7 +1703,8 @@
             ],
             "env": {
                 "client": "required",
-                "server": "unsupported"
+                "server": "unsupported",
+                "minimum": "remove"
             },
             "fileSize": 2438548,
             "hashes": {
@@ -2127,7 +2140,8 @@
             ],
             "env": {
                 "client": "required",
-                "server": "unsupported"
+                "server": "unsupported",
+                "minimum": "remove"
             },
             "fileSize": 32303,
             "hashes": {
@@ -2442,7 +2456,8 @@
             ],
             "env": {
                 "client": "required",
-                "server": "unsupported"
+                "server": "unsupported",
+                "minimum": "remove"
             },
             "fileSize": 14146,
             "hashes": {
@@ -2562,7 +2577,8 @@
             ],
             "env": {
                 "client": "required",
-                "server": "unsupported"
+                "server": "unsupported",
+                "minimum": "remove"
             },
             "fileSize": 8732437,
             "hashes": {
@@ -2832,7 +2848,8 @@
             ],
             "env": {
                 "client": "required",
-                "server": "unsupported"
+                "server": "unsupported",
+                "minimum": "remove"
             },
             "fileSize": 870344,
             "hashes": {

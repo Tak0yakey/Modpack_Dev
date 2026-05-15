@@ -33,7 +33,7 @@ jobs:
       - name: Zip dist folder
         run: |
           FILES=""
-          for variant in normal axiom; do
+          for variant in normal axiom minimum; do
             cd pack
             ZIP_NAME="null_server_life_${variant}_${TAG_NAME}.mrpack"
             cp ${variant}_modrinth.index.json modrinth.index.json
