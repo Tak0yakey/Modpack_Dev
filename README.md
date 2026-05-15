@@ -4,27 +4,6 @@
 ### ==>>>[最新のModpackを入手](https://github.com/Tak0yakey/Modpack_Dev/releases/tag/latest)
 
 
-<details><summary>軽量化用メモ</summary>
- 
-**見た目/UI 影響寄り**（ゲーム進行への影響が比較的小さい）候補
-- AsyncParticles-3.4.0-beta.1+1.21.1.jar
-- BetterF3-11.0.3-NeoForge-1.21.1.jar
-- BetterPingDisplay-1.21.1-1.1.jar
-- BetterThirdPerson-neoforge-1.9.0.jar
-- bocchud-0.4.0+mc1.21.1.jar
-- darkmodeeverywhere-1.21-1.3.5.jar
-- entityculling-neoforge-1.9.5-mc1.21.1.jar
-- EuphoriaPatcher-1.7.8-r5.6.1-neoforge.jar
-- forgeshot-neoforge-1.21.1-2.0.jar
-- fusion-1.2.12-neoforge-mc1.21.1.jar
-- iris-neoforge-1.8.12+mc1.21.1.jar
-- ModernUI-NeoForge-1.21.1-3.12.0.2-universal.jar
-- orthocamera-1.21.1-0.2.0.jar
-- Pretty Rain-1.21.1-NeoForge-1.1.4.jar
-- screenshot-to-clipboard-neoforge-1.0.10.jar
-- sounds-2.4.22+lts+1.21.1-neoforge.jar
-- vanillin-neoforge-1.21.1-1.1.3.jar
-</details>
 
 ### Install Latest Modpack to Server
 ```bash
