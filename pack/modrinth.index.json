@@ -295,21 +295,6 @@
         },
         {
             "downloads": [
-                "https://cdn.modrinth.com/data/72GXx2MO/versions/drIeVIkS/Emojiful-Neoforge-1.21-5.2.1-all.jar"
-            ],
-            "env": {
-                "client": "required",
-                "server": "required"
-            },
-            "fileSize": 248141,
-            "hashes": {
-                "sha1": "9593141e8e9853cdbc2a1d9be57245db092b2bf8",
-                "sha512": "65afca1c0a28b8399e3954ede2e1b58cff8756446c006a934d3bbd2264533537088a1da4dd4da81ce2f03e80f0e06d5e347183ef1988ce0e81dbbe66b483ee5c"
-            },
-            "path": "mods/Emojiful-Neoforge-1.21-5.2.1-all.jar"
-        },
-        {
-            "downloads": [
                 "https://cdn.modrinth.com/data/4H6sumDB/versions/ZJvpKsmV/EuphoriaPatcher-1.7.8-r5.6.1-neoforge.jar"
             ],
             "env": {
@@ -3772,19 +3757,19 @@
             "fileSize": 1936882
         },
         {
-            "path": "mods/advancedschematicannon-1.1.2.jar",
+            "path": "mods/advancedschematicannon-1.1.2.1.jar",
             "downloads": [
-                "https://cdn.modrinth.com/data/Pxbip2zg/versions/puoVl1uC/advancedschematicannon-1.1.2.jar"
+                "https://cdn.modrinth.com/data/Pxbip2zg/versions/YFwCaElu/advancedschematicannon-1.1.2.1.jar"
             ],
             "hashes": {
-                "sha1": "3849d896cda9aad0126e57387de5f45f5bf91fd8",
-                "sha512": "9ad43dd4c0f34868f3b35a838e3937897dbb5e83ed51fee788554ef70ed111124550b8df92c707e2534fc221fede8c563a8e0418c9e92aaacde986b72bbaa7b0"
+                "sha1": "e72a0a2be9e169b63b6cc2f274cefb3d662e2abf",
+                "sha512": "8cda4e02c368768e82e180e3fa319813bdc26530399ae58967a3f65b7cc0a8a7db15417adb5f19c220ba64f78d0b01cf94c729da3382c766e0a376cfb54fe6b5"
             },
             "env": {
                 "client": "required",
                 "server": "required"
             },
-            "fileSize": 298756
+            "fileSize": 298813
         },
         {
             "path": "mods/MagnumTorch-v21.1.1-1.21.1-NeoForge.jar",
@@ -3814,6 +3799,37 @@
             "env": {
                 "client": "required",
                 "server": "required"
+            }
+        },
+        {
+            "path": "mods/cc-tweaked-1.21.1-forge-1.118.0.jar",
+            "downloads": [
+                "https://cdn.modrinth.com/data/gu7yAYhd/versions/tufB2KsB/cc-tweaked-1.21.1-forge-1.118.0.jar"
+            ],
+            "hashes": {
+                "sha1": "bbb1431befefbf56991ef0a0aad25fffedcfdfbc",
+                "sha512": "191f2d88e4760343c141fac1c14239215dadffcacd934767e4d796a97fe09c43cde3b819a4137ab502db0f9995ee11cac3cff805d7c602241798e5cf155cb743"
+            },
+            "fileSize": 3122700,
+            "env": {
+                "client": "required",
+                "server": "required"
+            }
+        },
+        {
+            "path": "mods/itemswapper-fabric-0.8.5-mc1.21.1.jar",
+            "downloads": [
+                "https://cdn.modrinth.com/data/RPOSBQgq/versions/zmcFBswb/itemswapper-fabric-0.8.5-mc1.21.1.jar"
+            ],
+            "hashes": {
+                "sha1": "0903ba226d52ccb940e76cf1d6b891b70f9d77c2",
+                "sha512": "46fa60216504bc519db73193ae5ffe29344488dbf8df7d4fd1a0a7c57bb4eea480086ab2ab4c2e2a837ba1ec96e8b02f9951140e5d37f6e044c863bbc906dd38"
+            },
+            "fileSize": 2256244,
+            "env": {
+                "client": "required",
+                "server": "required",
+                "axiom": "add"
             }
         }
     ],
