@@ -3,7 +3,6 @@ import json
 from copy import copy
 
 os.chdir(f"{os.path.dirname(os.path.abspath(__file__))}/../pack")
-os.environ.get("GITHUB_REF_NAME")
 
 with open("modrinth.index.json", "r") as r:
     data = json.load(r)
@@ -20,8 +19,8 @@ def make_variant(name: str, remove_flags: set[str], exclude_add_flags: set[str])
             continue
         if any(env.get(flag) == "add" for flag in exclude_add_flags):
             continue
-        mod_copy = dict(mod)
-        mod_env = dict(mod_copy.get("env", {}))
+        mod_copy = copy(mod)
+        mod_env = copy(mod_copy.get("env", {}))
         for flag in variant_flags:
             mod_env.pop(flag, None)
         mod_copy["env"] = mod_env

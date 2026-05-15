@@ -4,7 +4,7 @@
 ### ==>>>[最新のModpackを入手](https://github.com/Tak0yakey/Modpack_Dev/releases/tag/latest)
 
 ## 軽量化用メモ（`pack/modrinth.index.json` から抽出）
-`env.server = unsupported` の **client only** は以下の 41 件です。
+`env.server = unsupported` の **client only** は以下です。
 
 - appliedsorting-neo-1.21.1-v1.0.0.jar
 - AsyncParticles-3.4.0-beta.1+1.21.1.jar
