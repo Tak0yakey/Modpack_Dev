@@ -3,13 +3,10 @@
  
 ### ==>>>[最新のModpackを入手](https://github.com/Tak0yakey/Modpack_Dev/releases/tag/latest)
 
-## 軽量化用メモ（`pack/modrinth.index.json` から抽出）
-`env.server = unsupported` の **client only** は以下です。
 
-
-<details><summary>軽量化用メモ
-</summary>
-この中でも、**見た目/UI 影響寄り**（ゲーム進行への影響が比較的小さい）候補は以下です。
+<details><summary>軽量化用メモ</summary>
+ 
+**見た目/UI 影響寄り**（ゲーム進行への影響が比較的小さい）候補
 - AsyncParticles-3.4.0-beta.1+1.21.1.jar
 - BetterF3-11.0.3-NeoForge-1.21.1.jar
 - BetterPingDisplay-1.21.1-1.1.jar
@@ -28,6 +25,7 @@
 - sounds-2.4.22+lts+1.21.1-neoforge.jar
 - vanillin-neoforge-1.21.1-1.1.3.jar
 </details>
+
 ### Install Latest Modpack to Server
 ```bash
 wget https://raw.githubusercontent.com/Tak0yakey/ModrinthServerPackInstaller/refs/heads/main/modrinth.py && python3 modrinth.py https://github.com/Tak0yakey/Modpack_Dev/releases/download/latest/latest.mrpack
