@@ -6,4 +6,5 @@
 !/config/
 !/config/*
 !/server.properties
+!/fetch_whitelist
 options.txt
