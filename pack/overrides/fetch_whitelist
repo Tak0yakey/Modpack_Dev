@@ -25,9 +25,10 @@ http_code="$(
 case "$http_code" in
   200)
     mv "$tmp" "$dest"
-    ./mcrcon "whitelist reload"
+    ./mcrocon "whitelist reload"
     ;;
   304)
     rm -f "$tmp"
+    ./mcrocon "whitelist reload"
     ;;
 esac
